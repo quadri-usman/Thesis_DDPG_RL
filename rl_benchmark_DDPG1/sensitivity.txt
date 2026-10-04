@@ -1,0 +1,11 @@
+Here, starting with 50kW loads and the grid closed. Then, at 2 seconds, 52.5 kW connected, followed by 55kW at 3.5 seconds and 60kW at 5 seconds. 70kW is then connected at 6.5 seconds, while the 50kW is restored at 9seconds. Then 40kW is removed along with the grid opening at 11 seconds, and both are reconnected at 12 seconds. I think we can use this as the benchmark system for implementing RL, whereby the RL can see different disturbances in the system. So, I think we should build the benchmark now using this
+
+
+train_sac_target_peak
+train_ppo_target_peak_updated
+train_ddpg_target_peak_updated
+
+gfm_env_random_target_peak_R4.py
+train_ddpg_target_peak_R4.py
+
+These still give the best performance to date. SO, I want to use this as the base for DDPG sensitivity analysis: (1) cost = (c.w_frequency*Jf + c.w_rocof*Jr + c.w_settling*Js + c.w_frequency_peak*Jp) (2) cost = (c.w_frequency*Jf + c.w_rocof*Jr + c.w_frequency_peak*Jp + c.w_voltage*Jv + c.w_current*Ji + c.w_gain_motion*Jk) (3) cost = (c.w_frequency*Jf + c.w_settling*Js + c.w_frequency_peak*Jp + c.w_voltage*Jv + c.w_current*Ji + c.w_gain_motion*Jk) (4) cost = (c.w_rocof*Jr + c.w_settling*Js + c.w_frequency_peak*Jp + c.w_voltage*Jv + c.w_current*Ji + c.w_gain_motion*Jk) (5) cost = (c.w_frequency*Jf + c.w_rocof*Jr) (6) cost = (c.w_frequency*Jf + c.w_settling*Js) (7) cost = (c.w_rocof*Jr + c.w_settling*Js) (8) cost = (c.w_frequency*Jf + c.w_rocof*Jr + c.w_settling*Js)

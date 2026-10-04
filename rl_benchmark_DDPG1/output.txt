@@ -1,0 +1,729 @@
+====================================================================================================================
+LOCAL FOUR-GAIN REFINEMENT -- PARALLEL / RESUMABLE
+====================================================================================================================
+nominal          : [2.0, 14.0, 2.0, 20.0]
+Kpv multipliers  : [0.75, 1.0, 1.25]
+Kiv multipliers  : [0.1, 0.15, 0.2, 0.25, 0.35, 0.5]
+Kpi multipliers  : [0.1, 0.15, 0.2, 0.25, 0.35, 0.5]
+Kii multipliers  : [0.1, 0.15, 0.2, 0.25, 0.35, 0.5]
+Stage-A cases    : 648
+screen seed      : 1002
+Stage-B top N    : 20
+validation seeds : [1001, 1002, 1003]
+workers          : 8
+output           : four_gain_local_25940
+====================================================================================================================
+STAGE A: 0/648 complete; remaining 648
+[   1/648] case=  6 seed= 1002 safe=True df=0.159858 R=10.3749 Ts=0.871499999999987 mod=17.3 ETA=1727.1 min
+[   2/648] case=  4 seed= 1002 safe=True df=0.169356 R=8.1906 Ts=0.8894999999999865 mod=11.4 ETA=867.6 min
+[   3/648] case=  3 seed= 1002 safe=True df=0.133385 R=7.5228 Ts=0.9034999999999858 mod=10.3 ETA=581.8 min
+[   4/648] case=  5 seed= 1002 safe=True df=0.133035 R=9.3655 Ts=0.879999999999987 mod=13.4 ETA=436.9 min
+[   5/648] case=  1 seed= 1002 safe=True df=0.133728 R=6.6978 Ts=0.9114999999999858 mod=7.5 ETA=349.6 min
+[   6/648] case=  8 seed= 1002 safe=True df=0.133457 R=5.2268 Ts=0.8779999999999882 mod=7.9 ETA=292.2 min
+[   7/648] case=  2 seed= 1002 safe=True df=0.133634 R=7.0736 Ts=0.8989999999999865 mod=8.6 ETA=250.7 min
+[   8/648] case=  7 seed= 1002 safe=True df=0.141034 R=5.3405 Ts=0.8699999999999886 mod=6.4 ETA=219.6 min
+[   9/648] case=  9 seed= 1002 safe=True df=0.132522 R=5.0895 Ts=0.8909999999999885 mod=8.9 ETA=380.3 min
+[  10/648] case= 10 seed= 1002 safe=True df=0.132582 R=4.8609 Ts=0.8709999999999882 mod=10.3 ETA=343.9 min
+[  11/648] case= 11 seed= 1002 safe=True df=0.159759 R=9.3264 Ts=0.8809999999999869 mod=13.5 ETA=312.7 min
+[  12/648] case= 12 seed= 1002 safe=True df=0.133234 R=5.6831 Ts=0.950999999999987 mod=17.2 ETA=286.5 min
+[  13/648] case= 13 seed= 1002 safe=True df=0.139563 R=4.2743 Ts=0.8999999999999898 mod=6.0 ETA=266.6 min
+[  14/648] case= 14 seed= 1002 safe=True df=0.133028 R=3.9950 Ts=0.8904999999999894 mod=7.3 ETA=247.2 min
+[  15/648] case= 16 seed= 1002 safe=True df=0.132209 R=4.1469 Ts=0.9199999999999877 mod=10.3 ETA=230.8 min
+[  16/648] case= 15 seed= 1002 safe=True df=0.132233 R=3.9587 Ts=0.9154999999999884 mod=8.8 ETA=216.1 min
+[  17/648] case= 17 seed= 1002 safe=True df=0.132560 R=3.9638 Ts=0.9199999999999875 mod=13.0 ETA=298.2 min
+[  18/648] case= 18 seed= 1002 safe=True df=0.132972 R=4.3200 Ts=0.9434999999999866 mod=17.2 ETA=282.6 min
+[  19/648] case= 20 seed= 1002 safe=True df=0.132920 R=3.9860 Ts=0.8939999999999891 mod=7.3 ETA=269.1 min
+[  20/648] case= 19 seed= 1002 safe=True df=0.133443 R=3.8807 Ts=0.8904999999999904 mod=5.7 ETA=255.6 min
+[  21/648] case= 22 seed= 1002 safe=True df=0.132070 R=4.0850 Ts=0.9349999999999878 mod=10.2 ETA=244.1 min
+[  22/648] case= 21 seed= 1002 safe=True df=0.132203 R=3.9277 Ts=0.9319999999999877 mod=8.8 ETA=233.0 min
+[  23/648] case= 24 seed= 1002 safe=True df=0.133060 R=4.0591 Ts=0.9989999999999865 mod=17.3 ETA=222.6 min
+[  24/648] case= 23 seed= 1002 safe=True df=0.132568 R=3.9713 Ts=0.9519999999999872 mod=13.1 ETA=213.0 min
+[  25/648] case= 25 seed= 1002 safe=True df=0.133691 R=3.8099 Ts=0.8739999999999895 mod=5.7 ETA=268.3 min
+[  26/648] case= 26 seed= 1002 safe=True df=0.132922 R=3.8999 Ts=0.9104999999999883 mod=7.3 ETA=258.4 min
+[  27/648] case= 27 seed= 1002 safe=True df=0.132471 R=3.9440 Ts=0.9174999999999875 mod=8.8 ETA=249.5 min
+[  28/648] case= 28 seed= 1002 safe=True df=0.132329 R=4.0590 Ts=0.9464999999999872 mod=10.3 ETA=240.2 min
+[  29/648] case= 29 seed= 1002 safe=True df=0.132656 R=4.1135 Ts=0.9659999999999864 mod=13.2 ETA=232.4 min
+[  30/648] case= 30 seed= 1002 safe=True df=0.132905 R=4.0708 Ts=0.9949999999999865 mod=17.4 ETA=224.3 min
+[  31/648] case= 32 seed= 1002 safe=True df=0.133156 R=3.9335 Ts=0.8964999999999878 mod=7.4 ETA=217.5 min
+[  32/648] case= 31 seed= 1002 safe=True df=0.134130 R=3.9729 Ts=0.8709999999999882 mod=5.9 ETA=210.6 min
+[  33/648] case= 33 seed= 1002 safe=True df=0.132899 R=4.0809 Ts=0.9139999999999868 mod=8.9 ETA=250.4 min
+[  34/648] case= 34 seed= 1002 safe=True df=0.132667 R=4.2336 Ts=0.9334999999999867 mod=10.4 ETA=243.9 min
+[  35/648] case= 35 seed= 1002 safe=True df=0.132770 R=4.1922 Ts=0.9584999999999864 mod=13.3 ETA=237.2 min
+[  36/648] case= 36 seed= 1002 safe=True df=0.133036 R=4.2682 Ts=0.9769999999999859 mod=17.5 ETA=230.2 min
+[  37/648] case= 37 seed= 1002 safe=True df=0.150780 R=6.7254 Ts=0.9284999999999832 mod=9.3 ETA=223.9 min
+[  38/648] case= 38 seed= 1002 safe=True df=0.133235 R=7.0947 Ts=0.9029999999999847 mod=10.6 ETA=217.9 min
+[  39/648] case= 39 seed= 1002 safe=True df=0.143186 R=7.4833 Ts=0.9154999999999841 mod=13.1 ETA=212.4 min
+[  40/648] case= 40 seed= 1002 safe=True df=0.154510 R=8.0190 Ts=0.8964999999999852 mod=14.0 ETA=207.0 min
+[  41/648] case= 41 seed= 1002 safe=True df=0.132466 R=9.3923 Ts=0.8924999999999863 mod=16.8 ETA=238.1 min
+[  42/648] case= 42 seed= 1002 safe=True df=0.159354 R=10.3728 Ts=0.871499999999986 mod=21.9 ETA=233.2 min
+[  43/648] case= 43 seed= 1002 safe=True df=0.141186 R=5.4090 Ts=0.8669999999999874 mod=7.8 ETA=228.4 min
+[  44/648] case= 44 seed= 1002 safe=True df=0.133831 R=5.8809 Ts=0.8879999999999866 mod=9.8 ETA=222.9 min
+[  45/648] case= 45 seed= 1002 safe=True df=0.131862 R=5.3056 Ts=0.8934999999999873 mod=11.1 ETA=217.7 min
+[  46/648] case= 46 seed= 1002 safe=True df=0.132007 R=4.9459 Ts=0.9044999999999868 mod=12.9 ETA=213.0 min
+[  47/648] case= 47 seed= 1002 safe=True df=0.131993 R=5.9683 Ts=0.8964999999999865 mod=16.5 ETA=208.4 min
+[  48/648] case= 48 seed= 1002 safe=True df=0.132484 R=5.7484 Ts=0.9144999999999858 mod=22.3 ETA=203.9 min
+[  49/648] case= 49 seed= 1002 safe=True df=0.132362 R=3.9618 Ts=0.9144999999999892 mod=7.2 ETA=229.6 min
+[  50/648] case= 50 seed= 1002 safe=True df=0.131681 R=3.9610 Ts=0.9299999999999876 mod=9.1 ETA=225.7 min
+[  51/648] case= 52 seed= 1002 safe=True df=0.131820 R=3.9190 Ts=0.9544999999999868 mod=13.0 ETA=221.7 min
+[  52/648] case= 53 seed= 1002 safe=True df=0.131956 R=4.1186 Ts=0.9214999999999864 mod=16.8 ETA=217.1 min
+[  53/648] case= 51 seed= 1002 safe=True df=0.131566 R=4.1676 Ts=0.9264999999999873 mod=11.1 ETA=212.8 min
+[  54/648] case= 54 seed= 1002 safe=True df=0.132533 R=4.3130 Ts=0.9739999999999857 mod=22.4 ETA=208.6 min
+[  55/648] case= 56 seed= 1002 safe=True df=0.131738 R=3.9539 Ts=0.9259999999999876 mod=9.1 ETA=205.3 min
+[  56/648] case= 55 seed= 1002 safe=True df=0.132427 R=3.8812 Ts=0.8944999999999893 mod=7.0 ETA=201.4 min
+[  57/648] case= 57 seed= 1002 safe=True df=0.131718 R=4.2353 Ts=0.9614999999999866 mod=11.1 ETA=222.7 min
+[  58/648] case= 58 seed= 1002 safe=True df=0.131713 R=4.0033 Ts=0.9559999999999866 mod=13.1 ETA=219.5 min
+[  59/648] case= 60 seed= 1002 safe=True df=0.132484 R=4.2110 Ts=1.0069999999999855 mod=22.7 ETA=216.0 min
+[  60/648] case= 59 seed= 1002 safe=True df=0.131987 R=4.1101 Ts=0.9974999999999858 mod=17.0 ETA=212.1 min
+[  61/648] case= 61 seed= 1002 safe=True df=0.132763 R=3.8958 Ts=0.8924999999999883 mod=7.1 ETA=208.6 min
+[  62/648] case= 62 seed= 1002 safe=True df=0.132086 R=3.9522 Ts=0.9364999999999869 mod=9.2 ETA=205.0 min
+[  63/648] case= 63 seed= 1002 safe=True df=0.131813 R=4.1761 Ts=0.9604999999999864 mod=11.2 ETA=202.1 min
+[  64/648] case= 64 seed= 1002 safe=True df=0.132003 R=4.0618 Ts=0.9559999999999864 mod=13.2 ETA=198.7 min
+[  65/648] case= 65 seed= 1002 safe=True df=0.132270 R=4.1025 Ts=0.9714999999999856 mod=17.1 ETA=216.7 min
+[  66/648] case= 66 seed= 1002 safe=True df=0.132620 R=4.3528 Ts=1.0139999999999854 mod=22.8 ETA=214.1 min
+[  67/648] case= 67 seed= 1002 safe=True df=0.133506 R=4.0131 Ts=0.8899999999999876 mod=7.2 ETA=211.2 min
+[  68/648] case= 68 seed= 1002 safe=True df=0.132648 R=4.0786 Ts=0.927999999999986 mod=9.3 ETA=207.8 min
+[  69/648] case= 69 seed= 1002 safe=True df=0.132301 R=4.2111 Ts=0.9404999999999855 mod=11.3 ETA=204.7 min
+[  70/648] case= 70 seed= 1002 safe=True df=0.132269 R=4.1663 Ts=0.9569999999999855 mod=13.4 ETA=201.6 min
+[  71/648] case= 72 seed= 1002 safe=True df=0.132797 R=4.2602 Ts=0.9964999999999851 mod=23.0 ETA=198.9 min
+[  72/648] case= 71 seed= 1002 safe=True df=0.132567 R=4.1951 Ts=0.980999999999985 mod=17.3 ETA=195.9 min
+[  73/648] case= 73 seed= 1002 safe=True df=0.150978 R=6.7810 Ts=0.961499999999981 mod=11.1 ETA=211.1 min
+[  74/648] case= 74 seed= 1002 safe=True df=0.133188 R=7.0762 Ts=0.925499999999984 mod=12.6 ETA=209.0 min
+[  75/648] case= 75 seed= 1002 safe=True df=0.270369 R=9.6380 Ts=0.9589999999999812 mod=17.3 ETA=206.3 min
+[  76/648] case= 76 seed= 1002 safe=True df=0.154466 R=8.1941 Ts=0.9004999999999845 mod=16.7 ETA=203.5 min
+[  77/648] case= 77 seed= 1002 safe=True df=0.132113 R=9.3588 Ts=0.8879999999999852 mod=20.0 ETA=200.7 min
+[  78/648] case= 78 seed= 1002 safe=True df=0.166320 R=10.8248 Ts=0.8754999999999855 mod=26.4 ETA=197.9 min
+[  79/648] case= 80 seed= 1002 safe=True df=0.149861 R=6.5179 Ts=0.9144999999999848 mod=11.7 ETA=195.8 min
+[  80/648] case= 79 seed= 1002 safe=True df=0.132879 R=5.4290 Ts=0.9089999999999858 mod=8.9 ETA=193.1 min
+[  81/648] case= 81 seed= 1002 safe=True df=0.131552 R=4.7354 Ts=0.8839999999999866 mod=13.1 ETA=206.4 min
+[  82/648] case= 82 seed= 1002 safe=True df=0.131340 R=6.0645 Ts=0.8919999999999859 mod=15.4 ETA=204.6 min
+[  83/648] case= 83 seed= 1002 safe=True df=0.132079 R=6.8143 Ts=0.9299999999999852 mod=19.9 ETA=202.1 min
+[  84/648] case= 84 seed= 1002 safe=True df=0.132111 R=5.5933 Ts=0.926999999999985 mod=27.4 ETA=199.6 min
+[  85/648] case= 85 seed= 1002 safe=True df=0.131691 R=3.8706 Ts=0.9354999999999885 mod=8.4 ETA=197.3 min
+[  86/648] case= 86 seed= 1002 safe=True df=0.131171 R=4.1639 Ts=0.9309999999999867 mod=10.9 ETA=194.7 min
+[  87/648] case= 87 seed= 1002 safe=True df=0.131365 R=3.9595 Ts=0.9404999999999859 mod=13.3 ETA=192.8 min
+[  88/648] case= 88 seed= 1002 safe=True df=0.131297 R=4.1071 Ts=0.9459999999999855 mod=15.8 ETA=190.3 min
+[  89/648] case= 89 seed= 1002 safe=True df=0.131807 R=4.1754 Ts=0.9699999999999851 mod=20.4 ETA=202.0 min
+[  90/648] case= 90 seed= 1002 safe=True df=0.132019 R=4.3796 Ts=0.964999999999985 mod=27.5 ETA=200.4 min
+[  91/648] case= 91 seed= 1002 safe=True df=0.131778 R=3.9362 Ts=0.9239999999999886 mod=8.3 ETA=198.4 min
+[  92/648] case= 92 seed= 1002 safe=True df=0.131332 R=4.1843 Ts=0.9559999999999866 mod=10.9 ETA=196.1 min
+[  93/648] case= 93 seed= 1002 safe=True df=0.131378 R=3.9319 Ts=0.9699999999999858 mod=13.4 ETA=193.9 min
+[  94/648] case= 94 seed= 1002 safe=True df=0.131457 R=4.0340 Ts=0.9869999999999854 mod=15.9 ETA=191.6 min
+[  95/648] case= 96 seed= 1002 safe=True df=0.132273 R=4.2653 Ts=1.033999999999985 mod=28.0 ETA=189.9 min
+[  96/648] case= 95 seed= 1002 safe=True df=0.131874 R=4.2722 Ts=1.0074999999999852 mod=20.8 ETA=187.6 min
+[  97/648] case= 97 seed= 1002 safe=True df=0.132121 R=3.9121 Ts=0.9099999999999873 mod=8.3 ETA=198.0 min
+[  98/648] case= 98 seed= 1002 safe=True df=0.131751 R=4.1296 Ts=0.9519999999999864 mod=11.0 ETA=196.7 min
+[  99/648] case= 99 seed= 1002 safe=True df=0.131693 R=4.1203 Ts=0.9769999999999849 mod=13.5 ETA=194.8 min
+[ 100/648] case=100 seed= 1002 safe=True df=0.131903 R=4.1437 Ts=0.9879999999999852 mod=16.0 ETA=192.6 min
+[ 101/648] case=101 seed= 1002 safe=True df=0.132008 R=4.1111 Ts=1.000499999999985 mod=20.9 ETA=190.6 min
+[ 102/648] case=102 seed= 1002 safe=True df=0.132470 R=4.3064 Ts=1.0284999999999844 mod=28.1 ETA=188.5 min
+[ 103/648] case=104 seed= 1002 safe=True df=0.132195 R=4.2265 Ts=0.9419999999999853 mod=11.2 ETA=187.1 min
+[ 104/648] case=103 seed= 1002 safe=True df=0.132774 R=3.9663 Ts=0.9114999999999867 mod=8.5 ETA=184.9 min
+[ 105/648] case=105 seed= 1002 safe=True df=0.132116 R=4.1315 Ts=0.9614999999999854 mod=13.8 ETA=194.2 min
+[ 106/648] case=106 seed= 1002 safe=True df=0.132161 R=4.1604 Ts=0.9694999999999847 mod=16.2 ETA=193.1 min
+[ 107/648] case=107 seed= 1002 safe=True df=0.132359 R=4.2905 Ts=0.9949999999999845 mod=21.2 ETA=191.2 min
+[ 108/648] case=108 seed= 1002 safe=True df=0.132681 R=4.2528 Ts=1.0339999999999845 mod=28.4 ETA=189.3 min
+[ 109/648] case=109 seed= 1002 safe=True df=0.206354 R=6.7757 Ts=0.989499999999979 mod=13.5 ETA=187.2 min
+[ 110/648] case=110 seed= 1002 safe=True df=0.132888 R=7.2450 Ts=0.9339999999999826 mod=14.7 ETA=185.3 min
+[ 111/648] case=111 seed= 1002 safe=True df=0.245303 R=9.0323 Ts=0.9619999999999806 mod=19.3 ETA=184.0 min
+[ 112/648] case=112 seed= 1002 safe=True df=0.143002 R=8.1034 Ts=0.9019999999999844 mod=19.0 ETA=182.1 min
+[ 113/648] case=113 seed= 1002 safe=True df=0.131912 R=9.7501 Ts=0.8909999999999849 mod=23.2 ETA=190.3 min
+[ 114/648] case=114 seed= 1002 safe=True df=0.184473 R=10.9824 Ts=0.8864999999999847 mod=31.2 ETA=189.3 min
+[ 115/648] case=115 seed= 1002 safe=True df=0.132338 R=5.1904 Ts=0.8919999999999859 mod=10.0 ETA=187.8 min
+[ 116/648] case=116 seed= 1002 safe=True df=0.221334 R=8.5668 Ts=0.9309999999999825 mod=14.6 ETA=185.9 min
+[ 117/648] case=117 seed= 1002 safe=True df=0.130930 R=4.6617 Ts=0.8824999999999859 mod=15.1 ETA=184.1 min
+[ 118/648] case=118 seed= 1002 safe=True df=0.130898 R=4.6158 Ts=0.9059999999999853 mod=17.9 ETA=182.3 min
+[ 119/648] case=119 seed= 1002 safe=True df=0.131327 R=4.4675 Ts=0.9149999999999849 mod=23.5 ETA=181.1 min
+[ 120/648] case=120 seed= 1002 safe=True df=0.131864 R=5.4437 Ts=0.9184999999999842 mod=32.4 ETA=179.2 min
+[ 121/648] case=121 seed= 1002 safe=True df=0.131303 R=4.0555 Ts=0.9299999999999868 mod=9.6 ETA=186.8 min
+[ 122/648] case=122 seed= 1002 safe=True df=0.131105 R=3.9770 Ts=0.9479999999999857 mod=12.6 ETA=185.9 min
+[ 123/648] case=123 seed= 1002 safe=True df=0.130950 R=4.1221 Ts=0.9684999999999854 mod=15.5 ETA=184.5 min
+[ 124/648] case=124 seed= 1002 safe=True df=0.131169 R=4.0857 Ts=0.9499999999999849 mod=18.4 ETA=182.7 min
+[ 125/648] case=125 seed= 1002 safe=True df=0.131601 R=4.2629 Ts=0.9784999999999844 mod=24.2 ETA=181.0 min
+[ 126/648] case=126 seed= 1002 safe=True df=0.131933 R=4.6666 Ts=0.9809999999999841 mod=32.7 ETA=179.3 min
+[ 127/648] case=127 seed= 1002 safe=True df=0.131222 R=3.9636 Ts=0.9334999999999869 mod=9.5 ETA=178.3 min
+[ 128/648] case=128 seed= 1002 safe=True df=0.131106 R=4.0083 Ts=0.9704999999999857 mod=12.6 ETA=176.6 min
+[ 129/648] case=129 seed= 1002 safe=True df=0.131197 R=4.0531 Ts=0.9934999999999852 mod=15.7 ETA=183.4 min
+[ 130/648] case=130 seed= 1002 safe=True df=0.131337 R=4.0689 Ts=1.0029999999999846 mod=18.7 ETA=182.6 min
+[ 131/648] case=132 seed= 1002 safe=True df=0.131957 R=4.3407 Ts=1.048999999999984 mod=33.2 ETA=181.2 min
+[ 132/648] case=131 seed= 1002 safe=True df=0.131775 R=4.1922 Ts=1.0214999999999843 mod=24.6 ETA=179.5 min
+[ 133/648] case=133 seed= 1002 safe=True df=0.131932 R=3.9455 Ts=0.9254999999999867 mod=9.6 ETA=178.1 min
+[ 134/648] case=134 seed= 1002 safe=True df=0.131636 R=4.0055 Ts=0.9629999999999855 mod=12.8 ETA=176.5 min
+[ 135/648] case=135 seed= 1002 safe=True df=0.131723 R=4.1451 Ts=0.9849999999999848 mod=15.8 ETA=175.6 min
+[ 136/648] case=136 seed= 1002 safe=True df=0.131739 R=4.0676 Ts=0.9934999999999847 mod=18.8 ETA=173.9 min
+[ 137/648] case=137 seed= 1002 safe=True df=0.131883 R=4.3379 Ts=1.0194999999999843 mod=24.7 ETA=180.0 min
+[ 138/648] case=138 seed= 1002 safe=True df=0.132067 R=4.2678 Ts=1.0559999999999834 mod=33.4 ETA=179.3 min
+[ 139/648] case=140 seed= 1002 safe=True df=0.132037 R=4.1818 Ts=0.9504999999999848 mod=13.0 ETA=178.1 min
+[ 140/648] case=139 seed= 1002 safe=True df=0.132496 R=4.1076 Ts=0.9209999999999859 mod=9.9 ETA=176.5 min
+[ 141/648] case=141 seed= 1002 safe=True df=0.131987 R=4.1897 Ts=0.9699999999999844 mod=16.1 ETA=175.1 min
+[ 142/648] case=142 seed= 1002 safe=True df=0.132077 R=4.2127 Ts=0.9839999999999844 mod=19.1 ETA=173.6 min
+[ 143/648] case=144 seed= 1002 safe=True df=0.132431 R=4.3253 Ts=1.0449999999999837 mod=33.8 ETA=172.7 min
+[ 144/648] case=143 seed= 1002 safe=True df=0.132265 R=4.2166 Ts=1.0144999999999837 mod=25.1 ETA=171.2 min
+[ 145/648] case=145 seed= 1002 safe=True df=0.173601 R=6.7456 Ts=0.9754999999999798 mod=14.8 ETA=176.6 min
+[ 146/648] case=146 seed= 1002 safe=True df=0.133439 R=7.3129 Ts=0.9534999999999815 mod=18.2 ETA=176.0 min
+[ 147/648] case=147 seed= 1002 safe=True df=0.188519 R=7.9169 Ts=0.9394999999999816 mod=21.9 ETA=174.8 min
+[ 148/648] case=148 seed= 1002 safe=True df=0.131985 R=8.1475 Ts=0.9004999999999841 mod=23.3 ETA=173.3 min
+[ 149/648] case=149 seed= 1002 safe=True df=0.131042 R=9.7918 Ts=0.8769999999999845 mod=29.1 ETA=172.0 min
+[ 150/648] case=150 seed= 1002 safe=True df=0.187392 R=11.0601 Ts=0.8919999999999839 mod=39.7 ETA=170.5 min
+[ 151/648] case=151 seed= 1002 safe=True df=0.131968 R=5.3211 Ts=0.8889999999999847 mod=12.2 ETA=169.9 min
+[ 152/648] case=152 seed= 1002 safe=True df=0.130796 R=5.0250 Ts=0.9104999999999852 mod=15.4 ETA=168.5 min
+[ 153/648] case=153 seed= 1002 safe=True df=0.130609 R=4.9580 Ts=0.8894999999999845 mod=19.0 ETA=173.3 min
+[ 154/648] case=154 seed= 1002 safe=True df=0.130807 R=6.1229 Ts=0.8824999999999843 mod=22.6 ETA=172.8 min
+[ 155/648] case=155 seed= 1002 safe=True df=0.130810 R=4.4987 Ts=0.897499999999984 mod=30.5 ETA=171.7 min
+[ 156/648] case=156 seed= 1002 safe=True df=0.131781 R=6.1332 Ts=0.9224999999999833 mod=42.3 ETA=170.2 min
+[ 157/648] case=157 seed= 1002 safe=True df=0.130766 R=4.0884 Ts=0.9604999999999864 mod=11.9 ETA=169.1 min
+[ 158/648] case=158 seed= 1002 safe=True df=0.130682 R=4.0886 Ts=0.9489999999999844 mod=16.0 ETA=167.7 min
+[ 159/648] case=159 seed= 1002 safe=True df=0.130848 R=4.0371 Ts=0.9659999999999844 mod=19.8 ETA=167.1 min
+[ 160/648] case=160 seed= 1002 safe=True df=0.130922 R=4.0572 Ts=0.962999999999984 mod=23.7 ETA=165.8 min
+[ 161/648] case=161 seed= 1002 safe=True df=0.131276 R=4.3353 Ts=0.9784999999999837 mod=31.5 ETA=170.1 min
+[ 162/648] case=162 seed= 1002 safe=True df=0.131935 R=5.2040 Ts=0.9864999999999831 mod=43.1 ETA=169.7 min
+[ 163/648] case=163 seed= 1002 safe=True df=0.130958 R=4.0718 Ts=0.9619999999999856 mod=11.9 ETA=168.6 min
+[ 164/648] case=164 seed= 1002 safe=True df=0.130824 R=4.0335 Ts=1.0364999999999847 mod=16.1 ETA=167.3 min
+[ 165/648] case=165 seed= 1002 safe=True df=0.131010 R=4.0267 Ts=1.032499999999984 mod=20.2 ETA=166.2 min
+[ 166/648] case=166 seed= 1002 safe=True df=0.131105 R=4.1954 Ts=1.0294999999999832 mod=24.2 ETA=164.9 min
+[ 167/648] case=167 seed= 1002 safe=True df=0.131448 R=4.3941 Ts=1.0434999999999834 mod=32.0 ETA=164.3 min
+[ 168/648] case=168 seed= 1002 safe=True df=0.132009 R=4.2715 Ts=1.114499999999977 mod=43.6 ETA=163.0 min
+[ 169/648] case=169 seed= 1002 safe=True df=0.131446 R=4.1401 Ts=0.9629999999999855 mod=12.1 ETA=167.1 min
+[ 170/648] case=170 seed= 1002 safe=True df=0.131558 R=4.1487 Ts=0.9949999999999846 mod=16.3 ETA=166.7 min
+[ 171/648] case=171 seed= 1002 safe=True df=0.131357 R=4.1047 Ts=1.008499999999984 mod=20.4 ETA=165.6 min
+[ 172/648] case=172 seed= 1002 safe=True df=0.131625 R=4.2743 Ts=1.0279999999999831 mod=24.4 ETA=164.3 min
+[ 173/648] case=173 seed= 1002 safe=True df=0.131771 R=4.3187 Ts=1.0514999999999834 mod=32.2 ETA=163.3 min
+[ 174/648] case=174 seed= 1002 safe=True df=0.132105 R=4.3356 Ts=1.1019999999999783 mod=43.8 ETA=162.0 min
+[ 175/648] case=176 seed= 1002 safe=True df=0.131969 R=4.1649 Ts=0.9794999999999843 mod=16.6 ETA=161.6 min
+[ 176/648] case=175 seed= 1002 safe=True df=0.132216 R=4.1733 Ts=0.9494999999999855 mod=12.4 ETA=160.3 min
+[ 177/648] case=177 seed= 1002 safe=True df=0.131976 R=4.2638 Ts=0.9989999999999839 mod=20.7 ETA=164.0 min
+[ 178/648] case=178 seed= 1002 safe=True df=0.131917 R=4.2923 Ts=1.0224999999999833 mod=24.8 ETA=163.7 min
+[ 179/648] case=179 seed= 1002 safe=True df=0.132027 R=4.3063 Ts=1.0629999999999826 mod=32.7 ETA=162.6 min
+[ 180/648] case=180 seed= 1002 safe=True df=0.132249 R=4.3275 Ts=1.0809999999999806 mod=44.2 ETA=161.4 min
+[ 181/648] case=181 seed= 1002 safe=True df=0.133399 R=7.1781 Ts=0.9714999999999803 mod=17.8 ETA=160.3 min
+[ 182/648] case=182 seed= 1002 safe=True df=0.147352 R=7.6521 Ts=0.9824999999999791 mod=24.9 ETA=159.1 min
+[ 183/648] case=183 seed= 1002 safe=True df=0.161636 R=8.2324 Ts=0.935499999999982 mod=27.0 ETA=158.7 min
+[ 184/648] case=184 seed= 1002 safe=True df=0.131186 R=8.5887 Ts=0.9009999999999834 mod=29.7 ETA=157.5 min
+[ 185/648] case=185 seed= 1002 safe=True df=0.130307 R=10.1475 Ts=0.8699999999999837 mod=38.0 ETA=160.8 min
+[ 186/648] case=186 seed= 1002 safe=True df=0.203736 R=12.5475 Ts=0.9129999999999825 mod=53.6 ETA=160.5 min
+[ 187/648] case=187 seed= 1002 safe=True df=0.149081 R=6.3560 Ts=0.922999999999983 mod=16.0 ETA=159.6 min
+[ 188/648] case=188 seed= 1002 safe=True df=0.130576 R=5.0796 Ts=0.9059999999999842 mod=19.7 ETA=158.4 min
+[ 189/648] case=190 seed= 1002 safe=True df=0.134115 R=7.5770 Ts=0.8894999999999837 mod=29.4 ETA=157.4 min
+[ 190/648] case=189 seed= 1002 safe=True df=0.130096 R=4.4068 Ts=0.9019999999999836 mod=25.1 ETA=156.2 min
+[ 191/648] case=192 seed= 1002 safe=True df=0.146867 R=8.5916 Ts=1.0074999999999816 mod=61.8 ETA=155.8 min
+[ 192/648] case=191 seed= 1002 safe=True df=0.130774 R=4.4132 Ts=0.9309999999999825 mod=41.7 ETA=154.7 min
+[ 193/648] case=193 seed= 1002 safe=True df=0.130412 R=4.1045 Ts=0.9499999999999847 mod=15.2 ETA=157.8 min
+[ 194/648] case=194 seed= 1002 safe=True df=0.130594 R=4.1169 Ts=0.9614999999999838 mod=20.8 ETA=157.5 min
+[ 195/648] case=195 seed= 1002 safe=True df=0.130511 R=4.2565 Ts=0.9674999999999834 mod=26.2 ETA=156.6 min
+[ 196/648] case=196 seed= 1002 safe=True df=0.130833 R=4.1579 Ts=0.9769999999999829 mod=31.6 ETA=155.5 min
+[ 197/648] case=197 seed= 1002 safe=True df=0.131000 R=4.7055 Ts=1.0239999999999825 mod=42.4 ETA=154.5 min
+[ 198/648] case=198 seed= 1002 safe=True df=0.131464 R=4.7250 Ts=1.0254999999999825 mod=58.2 ETA=153.4 min
+[ 199/648] case=199 seed= 1002 safe=True df=0.130824 R=4.1031 Ts=0.9809999999999846 mod=15.5 ETA=153.1 min
+[ 200/648] case=200 seed= 1002 safe=True df=0.130895 R=4.3235 Ts=1.0199999999999836 mod=21.2 ETA=152.0 min
+[ 201/648] case=201 seed= 1002 safe=True df=0.130963 R=4.2238 Ts=1.048999999999983 mod=26.7 ETA=154.9 min
+[ 202/648] case=202 seed= 1002 safe=True df=0.131174 R=4.3652 Ts=1.0699999999999819 mod=32.2 ETA=154.6 min
+[ 203/648] case=203 seed= 1002 safe=True df=0.131478 R=4.2705 Ts=1.1029999999999782 mod=42.9 ETA=153.7 min
+[ 204/648] case=204 seed= 1002 safe=True df=0.131544 R=4.4278 Ts=1.132499999999975 mod=58.8 ETA=152.6 min
+[ 205/648] case=206 seed= 1002 safe=True df=0.131295 R=4.0800 Ts=1.0114999999999836 mod=21.4 ETA=151.7 min
+[ 206/648] case=205 seed= 1002 safe=True df=0.131513 R=4.1128 Ts=0.9864999999999846 mod=15.7 ETA=150.6 min
+[ 207/648] case=207 seed= 1002 safe=True df=0.131455 R=4.2919 Ts=1.0364999999999833 mod=27.0 ETA=150.3 min
+[ 208/648] case=208 seed= 1002 safe=True df=0.131525 R=4.3339 Ts=1.051999999999983 mod=32.5 ETA=149.3 min
+[ 209/648] case=209 seed= 1002 safe=True df=0.131743 R=4.3064 Ts=1.1004999999999785 mod=43.2 ETA=151.9 min
+[ 210/648] case=210 seed= 1002 safe=True df=0.132035 R=4.3066 Ts=1.1434999999999738 mod=59.1 ETA=151.7 min
+[ 211/648] case=211 seed= 1002 safe=True df=0.132072 R=4.1694 Ts=0.9749999999999848 mod=16.2 ETA=150.8 min
+[ 212/648] case=212 seed= 1002 safe=True df=0.131989 R=4.3326 Ts=1.014499999999984 mod=21.9 ETA=149.8 min
+[ 213/648] case=213 seed= 1002 safe=True df=0.132025 R=4.2845 Ts=1.0349999999999833 mod=27.5 ETA=148.8 min
+[ 214/648] case=214 seed= 1002 safe=True df=0.131990 R=4.2849 Ts=1.0644999999999825 mod=33.0 ETA=147.8 min
+[ 215/648] case=215 seed= 1002 safe=True df=0.132172 R=4.3352 Ts=1.0879999999999799 mod=43.8 ETA=147.6 min
+[ 216/648] case=216 seed= 1002 safe=True df=0.132123 R=4.3216 Ts=1.1394999999999742 mod=59.7 ETA=146.6 min
+[ 217/648] case=217 seed= 1002 safe=True df=0.236239 R=7.2126 Ts=0.8809999999999876 mod=7.3 ETA=148.9 min
+[ 218/648] case=218 seed= 1002 safe=True df=0.133556 R=7.3114 Ts=0.8854999999999884 mod=8.1 ETA=148.8 min
+[ 219/648] case=220 seed= 1002 safe=True df=0.132987 R=6.5873 Ts=0.8754999999999882 mod=10.8 ETA=147.9 min
+[ 220/648] case=219 seed= 1002 safe=True df=0.132960 R=6.9019 Ts=0.8754999999999885 mod=9.4 ETA=146.9 min
+[ 221/648] case=221 seed= 1002 safe=True df=0.133154 R=6.6093 Ts=0.8879999999999877 mod=13.8 ETA=146.0 min
+[ 222/648] case=222 seed= 1002 safe=True df=0.133912 R=7.2835 Ts=0.9049999999999871 mod=18.5 ETA=145.0 min
+[ 223/648] case=223 seed= 1002 safe=True df=0.133416 R=3.9953 Ts=0.8989999999999903 mod=6.0 ETA=144.9 min
+[ 224/648] case=224 seed= 1002 safe=True df=0.132750 R=4.0797 Ts=0.8874999999999895 mod=7.6 ETA=143.9 min
+[ 225/648] case=225 seed= 1002 safe=True df=0.132783 R=4.0498 Ts=0.8879999999999887 mod=9.2 ETA=146.0 min
+[ 226/648] case=226 seed= 1002 safe=True df=0.133017 R=4.3267 Ts=0.9139999999999883 mod=10.8 ETA=145.9 min
+[ 227/648] case=228 seed= 1002 safe=True df=0.133583 R=5.4100 Ts=0.9364999999999872 mod=18.3 ETA=145.1 min
+[ 228/648] case=227 seed= 1002 safe=True df=0.133162 R=4.9990 Ts=0.9394999999999878 mod=13.8 ETA=144.1 min
+[ 229/648] case=229 seed= 1002 safe=True df=0.133426 R=3.7586 Ts=0.8894999999999897 mod=5.9 ETA=143.3 min
+[ 230/648] case=230 seed= 1002 safe=True df=0.132746 R=3.9482 Ts=0.9144999999999889 mod=7.5 ETA=142.3 min
+[ 231/648] case=231 seed= 1002 safe=True df=0.132791 R=3.9517 Ts=0.9259999999999884 mod=9.1 ETA=142.2 min
+[ 232/648] case=232 seed= 1002 safe=True df=0.132736 R=4.2060 Ts=0.9599999999999882 mod=10.7 ETA=141.3 min
+[ 233/648] case=233 seed= 1002 safe=True df=0.132984 R=4.1168 Ts=0.9629999999999879 mod=13.8 ETA=143.1 min
+[ 234/648] case=234 seed= 1002 safe=True df=0.133431 R=4.0883 Ts=0.9964999999999871 mod=18.3 ETA=143.0 min
+[ 235/648] case=235 seed= 1002 safe=True df=0.133609 R=3.8215 Ts=0.898499999999989 mod=5.9 ETA=142.2 min
+[ 236/648] case=236 seed= 1002 safe=True df=0.132895 R=3.9408 Ts=0.9089999999999887 mod=7.6 ETA=141.3 min
+[ 237/648] case=237 seed= 1002 safe=True df=0.132858 R=3.9860 Ts=0.954499999999987 mod=9.2 ETA=140.5 min
+[ 238/648] case=238 seed= 1002 safe=True df=0.132853 R=4.2211 Ts=0.9544999999999874 mod=10.7 ETA=139.6 min
+[ 239/648] case=240 seed= 1002 safe=True df=0.133579 R=4.1613 Ts=0.9904999999999868 mod=18.4 ETA=139.5 min
+[ 240/648] case=239 seed= 1002 safe=True df=0.133054 R=4.2264 Ts=0.9724999999999873 mod=13.8 ETA=138.6 min
+[ 241/648] case=241 seed= 1002 safe=True df=0.133925 R=3.9411 Ts=0.8724999999999888 mod=6.0 ETA=140.3 min
+[ 242/648] case=242 seed= 1002 safe=True df=0.133223 R=3.9959 Ts=0.9059999999999881 mod=7.6 ETA=140.2 min
+[ 243/648] case=243 seed= 1002 safe=True df=0.133015 R=4.1051 Ts=0.9434999999999871 mod=9.3 ETA=139.4 min
+[ 244/648] case=244 seed= 1002 safe=True df=0.133068 R=4.2383 Ts=0.9379999999999872 mod=10.8 ETA=138.5 min
+[ 245/648] case=245 seed= 1002 safe=True df=0.133246 R=4.1467 Ts=0.9724999999999866 mod=13.9 ETA=137.7 min
+[ 246/648] case=246 seed= 1002 safe=True df=0.133616 R=4.2832 Ts=0.9949999999999866 mod=18.5 ETA=136.8 min
+[ 247/648] case=248 seed= 1002 safe=True df=0.133731 R=4.1077 Ts=0.9074999999999871 mod=8.1 ETA=136.8 min
+[ 248/648] case=247 seed= 1002 safe=True df=0.134757 R=3.9727 Ts=0.8849999999999879 mod=6.6 ETA=135.9 min
+[ 249/648] case=249 seed= 1002 safe=True df=0.133373 R=4.1800 Ts=0.930999999999986 mod=9.6 ETA=137.5 min
+[ 250/648] case=250 seed= 1002 safe=True df=0.133423 R=4.2227 Ts=0.9419999999999862 mod=11.1 ETA=137.4 min
+[ 251/648] case=252 seed= 1002 safe=True df=0.133691 R=4.2513 Ts=0.984999999999986 mod=18.7 ETA=136.6 min
+[ 252/648] case=251 seed= 1002 safe=True df=0.133432 R=4.2342 Ts=0.9669999999999861 mod=14.1 ETA=135.7 min
+[ 253/648] case=253 seed= 1002 safe=True df=0.173340 R=6.9234 Ts=0.8769999999999865 mod=8.3 ETA=134.9 min
+[ 254/648] case=254 seed= 1002 safe=True df=0.132783 R=7.2472 Ts=0.9559999999999873 mod=9.9 ETA=134.1 min
+[ 255/648] case=255 seed= 1002 safe=True df=0.132635 R=6.8048 Ts=0.8839999999999866 mod=11.6 ETA=134.0 min
+[ 256/648] case=256 seed= 1002 safe=True df=0.132444 R=6.0999 Ts=0.8814999999999875 mod=13.4 ETA=133.2 min
+[ 257/648] case=257 seed= 1002 safe=True df=0.132756 R=6.0026 Ts=0.8834999999999869 mod=17.3 ETA=134.6 min
+[ 258/648] case=258 seed= 1002 safe=True df=0.133235 R=7.0055 Ts=0.9114999999999864 mod=23.5 ETA=134.5 min
+[ 259/648] case=260 seed= 1002 safe=True df=0.132053 R=4.0233 Ts=0.903499999999988 mod=9.4 ETA=133.8 min
+[ 260/648] case=259 seed= 1002 safe=True df=0.132631 R=4.0362 Ts=0.9224999999999892 mod=7.3 ETA=132.9 min
+[ 261/648] case=261 seed= 1002 safe=True df=0.132060 R=4.0907 Ts=0.9254999999999873 mod=11.4 ETA=132.2 min
+[ 262/648] case=262 seed= 1002 safe=True df=0.132224 R=4.0704 Ts=0.948999999999987 mod=13.4 ETA=131.3 min
+[ 263/648] case=263 seed= 1002 safe=True df=0.132776 R=4.4140 Ts=0.9504999999999866 mod=17.5 ETA=131.3 min
+[ 264/648] case=264 seed= 1002 safe=True df=0.133211 R=5.5576 Ts=0.9459999999999862 mod=23.5 ETA=130.5 min
+[ 265/648] case=265 seed= 1002 safe=True df=0.132670 R=3.9497 Ts=0.9034999999999891 mod=7.2 ETA=131.8 min
+[ 266/648] case=266 seed= 1002 safe=True df=0.132047 R=3.9684 Ts=0.9434999999999878 mod=9.4 ETA=131.7 min
+[ 267/648] case=267 seed= 1002 safe=True df=0.132130 R=4.1434 Ts=0.9449999999999865 mod=11.4 ETA=131.0 min
+[ 268/648] case=268 seed= 1002 safe=True df=0.132300 R=3.9764 Ts=0.9724999999999869 mod=13.5 ETA=130.2 min
+[ 269/648] case=269 seed= 1002 safe=True df=0.132799 R=4.1595 Ts=0.9864999999999864 mod=17.7 ETA=129.4 min
+[ 270/648] case=270 seed= 1002 safe=True df=0.133149 R=4.2561 Ts=1.0029999999999861 mod=23.7 ETA=128.6 min
+[ 271/648] case=272 seed= 1002 safe=True df=0.132395 R=3.9516 Ts=0.948999999999987 mod=9.4 ETA=128.6 min
+[ 272/648] case=271 seed= 1002 safe=True df=0.132958 R=3.8989 Ts=0.9014999999999886 mod=7.2 ETA=127.8 min
+[ 273/648] case=273 seed= 1002 safe=True df=0.132326 R=4.1163 Ts=0.9559999999999866 mod=11.5 ETA=128.9 min
+[ 274/648] case=274 seed= 1002 safe=True df=0.132540 R=4.0852 Ts=0.9754999999999865 mod=13.6 ETA=128.9 min
+[ 275/648] case=275 seed= 1002 safe=True df=0.132788 R=4.0779 Ts=0.9919999999999862 mod=17.7 ETA=128.1 min
+[ 276/648] case=276 seed= 1002 safe=True df=0.133210 R=4.2092 Ts=1.018499999999986 mod=23.7 ETA=127.4 min
+[ 277/648] case=277 seed= 1002 safe=True df=0.133136 R=3.9612 Ts=0.8964999999999876 mod=7.3 ETA=126.6 min
+[ 278/648] case=278 seed= 1002 safe=True df=0.132693 R=4.0054 Ts=0.9264999999999868 mod=9.5 ETA=125.9 min
+[ 279/648] case=279 seed= 1002 safe=True df=0.132524 R=4.2043 Ts=0.9559999999999864 mod=11.6 ETA=125.8 min
+[ 280/648] case=280 seed= 1002 safe=True df=0.132817 R=4.1692 Ts=0.966999999999986 mod=13.7 ETA=125.1 min
+[ 281/648] case=281 seed= 1002 safe=True df=0.132968 R=4.1782 Ts=0.9824999999999857 mod=17.8 ETA=126.1 min
+[ 282/648] case=282 seed= 1002 safe=True df=0.133228 R=4.2785 Ts=1.012999999999986 mod=23.9 ETA=126.0 min
+[ 283/648] case=283 seed= 1002 safe=True df=0.133575 R=4.0715 Ts=0.8989999999999869 mod=7.8 ETA=125.4 min
+[ 284/648] case=284 seed= 1002 safe=True df=0.133102 R=4.2646 Ts=0.925499999999986 mod=9.8 ETA=124.6 min
+[ 285/648] case=285 seed= 1002 safe=True df=0.133100 R=4.2315 Ts=0.9434999999999854 mod=11.8 ETA=123.9 min
+[ 286/648] case=286 seed= 1002 safe=True df=0.133057 R=4.1956 Ts=0.9504999999999854 mod=13.9 ETA=123.1 min
+[ 287/648] case=288 seed= 1002 safe=True df=0.133538 R=4.2801 Ts=1.0129999999999852 mod=24.2 ETA=123.1 min
+[ 288/648] case=287 seed= 1002 safe=True df=0.133266 R=4.3009 Ts=0.9894999999999851 mod=18.1 ETA=122.3 min
+[ 289/648] case=289 seed= 1002 safe=True df=0.156160 R=6.9253 Ts=0.9059999999999857 mod=9.6 ETA=123.3 min
+[ 290/648] case=290 seed= 1002 safe=True df=0.132434 R=7.1258 Ts=0.8964999999999863 mod=11.6 ETA=123.2 min
+[ 291/648] case=291 seed= 1002 safe=True df=0.132106 R=6.8748 Ts=0.8954999999999866 mod=13.6 ETA=122.5 min
+[ 292/648] case=292 seed= 1002 safe=True df=0.131939 R=6.0986 Ts=0.8909999999999864 mod=15.9 ETA=121.8 min
+[ 293/648] case=293 seed= 1002 safe=True df=0.148018 R=8.5004 Ts=0.9324999999999859 mod=20.7 ETA=121.1 min
+[ 294/648] case=294 seed= 1002 safe=True df=0.132879 R=7.4170 Ts=0.9034999999999853 mod=28.5 ETA=120.4 min
+[ 295/648] case=296 seed= 1002 safe=True df=0.131606 R=4.1556 Ts=0.9309999999999874 mod=11.1 ETA=120.4 min
+[ 296/648] case=295 seed= 1002 safe=True df=0.131892 R=3.9446 Ts=0.9099999999999886 mod=8.5 ETA=119.7 min
+[ 297/648] case=297 seed= 1002 safe=True df=0.131645 R=3.9939 Ts=0.9324999999999868 mod=13.6 ETA=120.4 min
+[ 298/648] case=298 seed= 1002 safe=True df=0.131841 R=4.0441 Ts=0.9504999999999864 mod=16.1 ETA=120.4 min
+[ 299/648] case=299 seed= 1002 safe=True df=0.132244 R=4.4124 Ts=0.9479999999999856 mod=21.2 ETA=119.7 min
+[ 300/648] case=300 seed= 1002 safe=True df=0.132763 R=5.5082 Ts=0.9864999999999855 mod=28.4 ETA=119.0 min
+[ 301/648] case=301 seed= 1002 safe=True df=0.131960 R=3.8833 Ts=0.9199999999999884 mod=8.4 ETA=118.4 min
+[ 302/648] case=302 seed= 1002 safe=True df=0.131715 R=4.2065 Ts=0.9669999999999865 mod=11.1 ETA=117.6 min
+[ 303/648] case=304 seed= 1002 safe=True df=0.132021 R=4.1073 Ts=0.9934999999999861 mod=16.3 ETA=117.7 min
+[ 304/648] case=303 seed= 1002 safe=True df=0.131911 R=4.0053 Ts=0.979999999999986 mod=13.7 ETA=116.9 min
+[ 305/648] case=305 seed= 1002 safe=True df=0.132336 R=4.1766 Ts=1.0099999999999856 mod=21.4 ETA=117.6 min
+[ 306/648] case=306 seed= 1002 safe=True df=0.132832 R=4.3786 Ts=1.0349999999999855 mod=28.9 ETA=117.6 min
+[ 307/648] case=307 seed= 1002 safe=True df=0.132164 R=3.8842 Ts=0.9239999999999877 mod=8.4 ETA=117.0 min
+[ 308/648] case=308 seed= 1002 safe=True df=0.131831 R=4.1355 Ts=0.9644999999999864 mod=11.1 ETA=116.3 min
+[ 309/648] case=309 seed= 1002 safe=True df=0.132106 R=4.0690 Ts=0.9724999999999859 mod=13.8 ETA=115.6 min
+[ 310/648] case=310 seed= 1002 safe=True df=0.132237 R=4.1802 Ts=0.9824999999999858 mod=16.4 ETA=114.9 min
+[ 311/648] case=311 seed= 1002 safe=True df=0.132598 R=4.0660 Ts=1.0194999999999856 mod=21.5 ETA=114.9 min
+[ 312/648] case=312 seed= 1002 safe=True df=0.132976 R=4.3712 Ts=1.0339999999999852 mod=29.0 ETA=114.2 min
+[ 313/648] case=313 seed= 1002 safe=True df=0.132644 R=3.9061 Ts=0.9074999999999869 mod=8.6 ETA=114.8 min
+[ 314/648] case=314 seed= 1002 safe=True df=0.132277 R=4.1285 Ts=0.9374999999999861 mod=11.3 ETA=114.8 min
+[ 315/648] case=315 seed= 1002 safe=True df=0.132493 R=4.1389 Ts=0.9614999999999856 mod=14.0 ETA=114.2 min
+[ 316/648] case=316 seed= 1002 safe=True df=0.132493 R=4.1375 Ts=0.9839999999999851 mod=16.5 ETA=113.5 min
+[ 317/648] case=317 seed= 1002 safe=True df=0.132881 R=4.2918 Ts=1.008999999999985 mod=21.7 ETA=112.9 min
+[ 318/648] case=318 seed= 1002 safe=True df=0.133034 R=4.2410 Ts=1.0449999999999846 mod=29.2 ETA=112.2 min
+[ 319/648] case=320 seed= 1002 safe=True df=0.132889 R=4.2411 Ts=0.9379999999999852 mod=11.5 ETA=112.2 min
+[ 320/648] case=319 seed= 1002 safe=True df=0.133253 R=4.1487 Ts=0.9169999999999859 mod=9.0 ETA=111.5 min
+[ 321/648] case=321 seed= 1002 safe=True df=0.132750 R=4.2235 Ts=0.9589999999999844 mod=14.2 ETA=112.1 min
+[ 322/648] case=322 seed= 1002 safe=True df=0.132822 R=4.2452 Ts=0.970999999999985 mod=16.9 ETA=112.0 min
+[ 323/648] case=323 seed= 1002 safe=True df=0.132970 R=4.2882 Ts=0.9949999999999846 mod=22.0 ETA=111.4 min
+[ 324/648] case=324 seed= 1002 safe=True df=0.133315 R=4.2833 Ts=1.0239999999999845 mod=29.6 ETA=110.7 min
+[ 325/648] case=325 seed= 1002 safe=True df=0.132882 R=7.0673 Ts=0.915999999999985 mod=10.7 ETA=110.1 min
+[ 326/648] case=326 seed= 1002 safe=True df=0.132347 R=7.1243 Ts=0.9019999999999857 mod=13.1 ETA=109.4 min
+[ 327/648] case=327 seed= 1002 safe=True df=0.131770 R=6.6346 Ts=0.9059999999999857 mod=15.6 ETA=109.5 min
+[ 328/648] case=328 seed= 1002 safe=True df=0.131605 R=6.0240 Ts=0.8919999999999859 mod=18.3 ETA=108.8 min
+[ 329/648] case=329 seed= 1002 safe=True df=0.132130 R=5.1149 Ts=0.8989999999999854 mod=24.2 ETA=109.2 min
+[ 330/648] case=330 seed= 1002 safe=True df=0.132462 R=7.2454 Ts=0.9964999999999851 mod=33.2 ETA=109.2 min
+[ 331/648] case=331 seed= 1002 safe=True df=0.131524 R=4.0427 Ts=0.926999999999987 mod=9.6 ETA=108.6 min
+[ 332/648] case=332 seed= 1002 safe=True df=0.131680 R=3.9822 Ts=0.9534999999999858 mod=12.8 ETA=108.0 min
+[ 333/648] case=333 seed= 1002 safe=True df=0.131481 R=4.0984 Ts=0.9494999999999858 mod=15.8 ETA=107.3 min
+[ 334/648] case=334 seed= 1002 safe=True df=0.131659 R=4.1041 Ts=0.9604999999999857 mod=18.8 ETA=106.7 min
+[ 335/648] case=336 seed= 1002 safe=True df=0.132491 R=5.3828 Ts=0.9614999999999847 mod=33.7 ETA=106.7 min
+[ 336/648] case=335 seed= 1002 safe=True df=0.132086 R=4.1918 Ts=0.9629999999999852 mod=24.8 ETA=106.1 min
+[ 337/648] case=337 seed= 1002 safe=True df=0.131511 R=3.9653 Ts=0.9374999999999869 mod=9.6 ETA=106.5 min
+[ 338/648] case=338 seed= 1002 safe=True df=0.131621 R=3.9591 Ts=0.9699999999999857 mod=12.8 ETA=106.4 min
+[ 339/648] case=339 seed= 1002 safe=True df=0.131653 R=4.0373 Ts=0.9919999999999856 mod=16.0 ETA=105.9 min
+[ 340/648] case=340 seed= 1002 safe=True df=0.131805 R=4.0469 Ts=1.0209999999999855 mod=19.1 ETA=105.2 min
+[ 341/648] case=341 seed= 1002 safe=True df=0.132359 R=4.1869 Ts=1.021499999999985 mod=25.2 ETA=104.6 min
+[ 342/648] case=342 seed= 1002 safe=True df=0.132676 R=4.3093 Ts=1.0544999999999836 mod=34.1 ETA=104.0 min
+[ 343/648] case=344 seed= 1002 safe=True df=0.131751 R=3.9061 Ts=0.9574999999999856 mod=12.9 ETA=104.0 min
+[ 344/648] case=343 seed= 1002 safe=True df=0.131864 R=3.9381 Ts=0.9574999999999866 mod=9.7 ETA=103.4 min
+[ 345/648] case=345 seed= 1002 safe=True df=0.131934 R=4.1415 Ts=0.9904999999999853 mod=16.0 ETA=103.7 min
+[ 346/648] case=346 seed= 1002 safe=True df=0.131890 R=4.0593 Ts=0.9849999999999854 mod=19.2 ETA=103.7 min
+[ 347/648] case=347 seed= 1002 safe=True df=0.132404 R=4.1983 Ts=1.0334999999999848 mod=25.3 ETA=103.1 min
+[ 348/648] case=348 seed= 1002 safe=True df=0.132743 R=4.3468 Ts=1.0529999999999837 mod=34.2 ETA=102.5 min
+[ 349/648] case=349 seed= 1002 safe=True df=0.132353 R=4.1054 Ts=0.9294999999999866 mod=9.8 ETA=101.9 min
+[ 350/648] case=350 seed= 1002 safe=True df=0.132137 R=4.1510 Ts=0.9624999999999855 mod=13.1 ETA=101.3 min
+[ 351/648] case=352 seed= 1002 safe=True df=0.132281 R=4.2337 Ts=1.0029999999999846 mod=19.4 ETA=101.3 min
+[ 352/648] case=351 seed= 1002 safe=True df=0.132351 R=4.1303 Ts=0.980999999999985 mod=16.2 ETA=100.7 min
+[ 353/648] case=353 seed= 1002 safe=True df=0.132667 R=4.2629 Ts=1.0224999999999844 mod=25.5 ETA=100.9 min
+[ 354/648] case=354 seed= 1002 safe=True df=0.133006 R=4.2808 Ts=1.060499999999983 mod=34.4 ETA=100.9 min
+[ 355/648] case=356 seed= 1002 safe=True df=0.132849 R=4.1849 Ts=0.9489999999999845 mod=13.4 ETA=100.3 min
+[ 356/648] case=355 seed= 1002 safe=True df=0.132933 R=4.2295 Ts=0.9269999999999858 mod=10.1 ETA=99.7 min
+[ 357/648] case=357 seed= 1002 safe=True df=0.132745 R=4.2509 Ts=0.9714999999999845 mod=16.6 ETA=99.1 min
+[ 358/648] case=358 seed= 1002 safe=True df=0.132677 R=4.2899 Ts=0.9879999999999844 mod=19.7 ETA=98.5 min
+[ 359/648] case=359 seed= 1002 safe=True df=0.132758 R=4.3025 Ts=1.0169999999999844 mod=25.9 ETA=98.6 min
+[ 360/648] case=360 seed= 1002 safe=True df=0.133044 R=4.3415 Ts=1.043499999999984 mod=34.9 ETA=97.9 min
+[ 361/648] case=361 seed= 1002 safe=True df=0.132687 R=7.2282 Ts=0.917499999999984 mod=13.0 ETA=98.1 min
+[ 362/648] case=362 seed= 1002 safe=True df=0.131884 R=7.3119 Ts=0.8894999999999851 mod=16.1 ETA=98.1 min
+[ 363/648] case=363 seed= 1002 safe=True df=0.131212 R=6.8303 Ts=0.888499999999985 mod=19.4 ETA=97.5 min
+[ 364/648] case=364 seed= 1002 safe=True df=0.131251 R=6.0586 Ts=0.8769999999999851 mod=23.1 ETA=97.0 min
+[ 365/648] case=365 seed= 1002 safe=True df=0.131392 R=6.1130 Ts=0.8894999999999845 mod=30.8 ETA=96.4 min
+[ 366/648] case=366 seed= 1002 safe=True df=0.132316 R=6.5626 Ts=0.9204999999999842 mod=43.3 ETA=95.8 min
+[ 367/648] case=368 seed= 1002 safe=True df=0.131067 R=4.0909 Ts=0.9559999999999852 mod=16.1 ETA=95.8 min
+[ 368/648] case=367 seed= 1002 safe=True df=0.130934 R=4.0711 Ts=0.9629999999999864 mod=11.9 ETA=95.2 min
+[ 369/648] case=369 seed= 1002 safe=True df=0.131152 R=4.0573 Ts=0.9529999999999845 mod=20.1 ETA=95.3 min
+[ 370/648] case=370 seed= 1002 safe=True df=0.131606 R=4.2321 Ts=0.9614999999999845 mod=24.1 ETA=95.3 min
+[ 371/648] case=371 seed= 1002 safe=True df=0.131759 R=4.7429 Ts=0.9864999999999842 mod=32.1 ETA=94.8 min
+[ 372/648] case=372 seed= 1002 safe=True df=0.132429 R=5.5256 Ts=0.9729999999999839 mod=43.9 ETA=94.2 min
+[ 373/648] case=373 seed= 1002 safe=True df=0.131082 R=4.0491 Ts=0.9714999999999856 mod=12.0 ETA=93.7 min
+[ 374/648] case=374 seed= 1002 safe=True df=0.131234 R=4.0537 Ts=1.0099999999999847 mod=16.3 ETA=93.1 min
+[ 375/648] case=376 seed= 1002 safe=True df=0.131666 R=4.1021 Ts=1.0284999999999842 mod=24.5 ETA=93.1 min
+[ 376/648] case=375 seed= 1002 safe=True df=0.131421 R=4.2780 Ts=1.0114999999999845 mod=20.4 ETA=92.5 min
+[ 377/648] case=377 seed= 1002 safe=True df=0.131894 R=4.4005 Ts=1.0379999999999838 mod=32.6 ETA=92.6 min
+[ 378/648] case=378 seed= 1002 safe=True df=0.132435 R=4.3416 Ts=1.0879999999999799 mod=44.4 ETA=92.5 min
+[ 379/648] case=379 seed= 1002 safe=True df=0.131350 R=4.0875 Ts=0.9669999999999856 mod=12.1 ETA=92.0 min
+[ 380/648] case=380 seed= 1002 safe=True df=0.131523 R=4.1670 Ts=0.9849999999999848 mod=16.3 ETA=91.4 min
+[ 381/648] case=381 seed= 1002 safe=True df=0.131790 R=4.1096 Ts=1.0129999999999844 mod=20.5 ETA=90.9 min
+[ 382/648] case=382 seed= 1002 safe=True df=0.131737 R=4.2678 Ts=1.023999999999984 mod=24.6 ETA=90.3 min
+[ 383/648] case=384 seed= 1002 safe=True df=0.132474 R=4.3492 Ts=1.08649999999998 mod=44.5 ETA=90.4 min
+[ 384/648] case=383 seed= 1002 safe=True df=0.132059 R=4.3024 Ts=1.0544999999999836 mod=32.7 ETA=89.8 min
+[ 385/648] case=385 seed= 1002 safe=True df=0.132061 R=4.1905 Ts=0.9504999999999855 mod=12.3 ETA=89.8 min
+[ 386/648] case=386 seed= 1002 safe=True df=0.132027 R=4.1301 Ts=0.9769999999999845 mod=16.6 ETA=89.8 min
+[ 387/648] case=387 seed= 1002 safe=True df=0.132031 R=4.2445 Ts=1.0004999999999844 mod=20.8 ETA=89.3 min
+[ 388/648] case=388 seed= 1002 safe=True df=0.132324 R=4.3311 Ts=1.022499999999984 mod=24.9 ETA=88.7 min
+[ 389/648] case=389 seed= 1002 safe=True df=0.132317 R=4.3011 Ts=1.0544999999999836 mod=33.0 ETA=88.2 min
+[ 390/648] case=390 seed= 1002 safe=True df=0.132624 R=4.3235 Ts=1.078499999999981 mod=44.8 ETA=87.6 min
+[ 391/648] case=392 seed= 1002 safe=True df=0.132559 R=4.2353 Ts=0.9699999999999844 mod=17.0 ETA=87.6 min
+[ 392/648] case=391 seed= 1002 safe=True df=0.132673 R=4.2007 Ts=0.944999999999985 mod=12.7 ETA=87.1 min
+[ 393/648] case=393 seed= 1002 safe=True df=0.132616 R=4.2966 Ts=0.9894999999999836 mod=21.2 ETA=87.0 min
+[ 394/648] case=394 seed= 1002 safe=True df=0.132497 R=4.2305 Ts=1.0159999999999836 mod=25.4 ETA=87.0 min
+[ 395/648] case=395 seed= 1002 safe=True df=0.132637 R=4.3135 Ts=1.0394999999999837 mod=33.5 ETA=86.5 min
+[ 396/648] case=396 seed= 1002 safe=True df=0.133020 R=4.3235 Ts=1.077999999999981 mod=45.4 ETA=85.9 min
+[ 397/648] case=397 seed= 1002 safe=True df=0.132425 R=7.2574 Ts=0.9169999999999835 mod=16.1 ETA=85.4 min
+[ 398/648] case=398 seed= 1002 safe=True df=0.131251 R=7.0130 Ts=0.9004999999999843 mod=20.1 ETA=84.9 min
+[ 399/648] case=399 seed= 1002 safe=True df=0.130536 R=6.7329 Ts=0.8794999999999844 mod=24.9 ETA=84.9 min
+[ 400/648] case=400 seed= 1002 safe=True df=0.130553 R=5.9994 Ts=0.886999999999984 mod=30.3 ETA=84.4 min
+[ 401/648] case=401 seed= 1002 safe=True df=0.131317 R=6.0516 Ts=0.9549999999999832 mod=42.0 ETA=84.3 min
+[ 402/648] case=402 seed= 1002 safe=True df=0.131759 R=6.6354 Ts=0.9919999999999827 mod=58.2 ETA=84.2 min
+[ 403/648] case=403 seed= 1002 safe=True df=0.130722 R=4.0851 Ts=0.9804999999999848 mod=15.3 ETA=83.7 min
+[ 404/648] case=404 seed= 1002 safe=True df=0.130818 R=4.0602 Ts=0.9599999999999838 mod=20.9 ETA=83.2 min
+[ 405/648] case=405 seed= 1002 safe=True df=0.130945 R=4.1625 Ts=0.9754999999999836 mod=26.4 ETA=82.7 min
+[ 406/648] case=406 seed= 1002 safe=True df=0.131215 R=4.1716 Ts=0.9769999999999837 mod=31.9 ETA=82.2 min
+[ 407/648] case=408 seed= 1002 safe=True df=0.131955 R=5.9068 Ts=1.0089999999999826 mod=59.2 ETA=82.2 min
+[ 408/648] case=407 seed= 1002 safe=True df=0.131702 R=4.4856 Ts=1.0059999999999831 mod=43.0 ETA=81.6 min
+[ 409/648] case=409 seed= 1002 safe=True df=0.130983 R=4.0844 Ts=1.0114999999999847 mod=15.5 ETA=81.5 min
+[ 410/648] case=410 seed= 1002 safe=True df=0.131084 R=4.2349 Ts=1.0339999999999838 mod=21.3 ETA=81.5 min
+[ 411/648] case=411 seed= 1002 safe=True df=0.131335 R=4.2661 Ts=1.0369999999999837 mod=26.9 ETA=81.0 min
+[ 412/648] case=412 seed= 1002 safe=True df=0.131446 R=4.3836 Ts=1.0444999999999833 mod=32.5 ETA=80.5 min
+[ 413/648] case=413 seed= 1002 safe=True df=0.131996 R=4.3008 Ts=1.1129999999999771 mod=43.4 ETA=79.9 min
+[ 414/648] case=414 seed= 1002 safe=True df=0.131985 R=4.4022 Ts=1.1004999999999785 mod=59.6 ETA=79.4 min
+[ 415/648] case=415 seed= 1002 safe=True df=0.131410 R=4.0829 Ts=0.9809999999999846 mod=15.6 ETA=79.4 min
+[ 416/648] case=416 seed= 1002 safe=True df=0.131472 R=4.1240 Ts=1.0224999999999838 mod=21.4 ETA=78.9 min
+[ 417/648] case=417 seed= 1002 safe=True df=0.131583 R=4.2244 Ts=1.0334999999999834 mod=27.1 ETA=78.8 min
+[ 418/648] case=418 seed= 1002 safe=True df=0.131668 R=4.3673 Ts=1.0584999999999831 mod=32.6 ETA=78.7 min
+[ 419/648] case=419 seed= 1002 safe=True df=0.132117 R=4.3048 Ts=1.0839999999999803 mod=43.5 ETA=78.2 min
+[ 420/648] case=420 seed= 1002 safe=True df=0.132070 R=4.3519 Ts=1.140499999999974 mod=59.7 ETA=77.7 min
+[ 421/648] case=421 seed= 1002 safe=True df=0.131834 R=4.1575 Ts=0.9769999999999845 mod=15.9 ETA=77.2 min
+[ 422/648] case=422 seed= 1002 safe=True df=0.132010 R=4.2570 Ts=1.0059999999999838 mod=21.8 ETA=76.7 min
+[ 423/648] case=424 seed= 1002 safe=True df=0.131947 R=4.2970 Ts=1.0574999999999832 mod=33.0 ETA=76.7 min
+[ 424/648] case=423 seed= 1002 safe=True df=0.131957 R=4.3036 Ts=1.0279999999999831 mod=27.4 ETA=76.2 min
+[ 425/648] case=425 seed= 1002 safe=True df=0.132190 R=4.3479 Ts=1.1074999999999777 mod=44.0 ETA=76.0 min
+[ 426/648] case=426 seed= 1002 safe=True df=0.132434 R=4.3015 Ts=1.1254999999999757 mod=60.1 ETA=75.9 min
+[ 427/648] case=428 seed= 1002 safe=True df=0.132468 R=4.3177 Ts=1.0044999999999837 mod=22.3 ETA=75.5 min
+[ 428/648] case=427 seed= 1002 safe=True df=0.132590 R=4.2058 Ts=0.9714999999999843 mod=16.5 ETA=75.0 min
+[ 429/648] case=429 seed= 1002 safe=True df=0.132496 R=4.3725 Ts=1.0239999999999834 mod=28.0 ETA=74.5 min
+[ 430/648] case=430 seed= 1002 safe=True df=0.132438 R=4.2970 Ts=1.0504999999999831 mod=33.7 ETA=74.0 min
+[ 431/648] case=432 seed= 1002 safe=True df=0.132597 R=4.3278 Ts=1.1004999999999785 mod=61.0 ETA=74.0 min
+[ 432/648] case=431 seed= 1002 safe=True df=0.132517 R=4.3022 Ts=1.0809999999999806 mod=44.7 ETA=73.5 min
+[ 433/648] case=433 seed= 1002 safe=True df=0.156032 R=7.5446 Ts=0.8654999999999896 mod=6.6 ETA=73.3 min
+[ 434/648] case=434 seed= 1002 safe=True df=0.133013 R=5.9315 Ts=0.8864999999999893 mod=8.0 ETA=73.2 min
+[ 435/648] case=436 seed= 1002 safe=True df=0.133280 R=6.2920 Ts=0.9044999999999883 mod=11.4 ETA=72.7 min
+[ 436/648] case=435 seed= 1002 safe=True df=0.133187 R=6.0140 Ts=0.8824999999999885 mod=9.7 ETA=72.2 min
+[ 437/648] case=437 seed= 1002 safe=True df=0.133816 R=7.7035 Ts=0.8904999999999881 mod=14.5 ETA=71.8 min
+[ 438/648] case=438 seed= 1002 safe=True df=0.134210 R=8.4031 Ts=0.9669999999999874 mod=19.4 ETA=71.3 min
+[ 439/648] case=440 seed= 1002 safe=True df=0.133005 R=3.9313 Ts=0.9099999999999893 mod=7.8 ETA=71.3 min
+[ 440/648] case=439 seed= 1002 safe=True df=0.133259 R=3.7932 Ts=0.8964999999999901 mod=6.1 ETA=70.8 min
+[ 441/648] case=441 seed= 1002 safe=True df=0.132959 R=4.0333 Ts=0.9479999999999884 mod=9.5 ETA=70.5 min
+[ 442/648] case=442 seed= 1002 safe=True df=0.133191 R=4.0719 Ts=0.9709999999999883 mod=11.2 ETA=70.5 min
+[ 443/648] case=444 seed= 1002 safe=True df=0.134187 R=4.1775 Ts=0.9669999999999872 mod=19.4 ETA=70.0 min
+[ 444/648] case=443 seed= 1002 safe=True df=0.133796 R=4.0368 Ts=0.9674999999999878 mod=14.5 ETA=69.5 min
+[ 445/648] case=445 seed= 1002 safe=True df=0.133605 R=3.8727 Ts=0.8934999999999896 mod=6.1 ETA=69.0 min
+[ 446/648] case=446 seed= 1002 safe=True df=0.133048 R=3.9809 Ts=0.9284999999999886 mod=7.9 ETA=68.6 min
+[ 447/648] case=447 seed= 1002 safe=True df=0.132987 R=3.9550 Ts=0.943499999999988 mod=9.6 ETA=68.5 min
+[ 448/648] case=448 seed= 1002 safe=True df=0.133242 R=4.1275 Ts=0.9684999999999874 mod=11.2 ETA=68.0 min
+[ 449/648] case=449 seed= 1002 safe=True df=0.133605 R=4.1540 Ts=0.9739999999999873 mod=14.5 ETA=67.8 min
+[ 450/648] case=450 seed= 1002 safe=True df=0.134131 R=4.2517 Ts=0.9964999999999873 mod=19.4 ETA=67.7 min
+[ 451/648] case=452 seed= 1002 safe=True df=0.133239 R=3.9289 Ts=0.9394999999999878 mod=7.9 ETA=67.3 min
+[ 452/648] case=451 seed= 1002 safe=True df=0.133974 R=3.8811 Ts=0.8894999999999891 mod=6.1 ETA=66.8 min
+[ 453/648] case=453 seed= 1002 safe=True df=0.133143 R=4.0264 Ts=0.9409999999999876 mod=9.6 ETA=66.3 min
+[ 454/648] case=454 seed= 1002 safe=True df=0.133407 R=4.1237 Ts=0.9514999999999874 mod=11.3 ETA=65.8 min
+[ 455/648] case=456 seed= 1002 safe=True df=0.134123 R=4.2801 Ts=1.0019999999999867 mod=19.5 ETA=65.8 min
+[ 456/648] case=455 seed= 1002 safe=True df=0.133672 R=4.0488 Ts=0.9684999999999873 mod=14.6 ETA=65.3 min
+[ 457/648] case=457 seed= 1002 safe=True df=0.134148 R=3.9260 Ts=0.8904999999999879 mod=6.5 ETA=65.1 min
+[ 458/648] case=458 seed= 1002 safe=True df=0.133608 R=4.1180 Ts=0.9139999999999867 mod=8.2 ETA=65.0 min
+[ 459/648] case=459 seed= 1002 safe=True df=0.133521 R=4.1203 Ts=0.9349999999999867 mod=9.8 ETA=64.5 min
+[ 460/648] case=460 seed= 1002 safe=True df=0.133364 R=4.1819 Ts=0.9519999999999864 mod=11.4 ETA=64.1 min
+[ 461/648] case=461 seed= 1002 safe=True df=0.133729 R=4.2304 Ts=0.9794999999999862 mod=14.7 ETA=63.6 min
+[ 462/648] case=462 seed= 1002 safe=True df=0.134139 R=4.2830 Ts=0.9989999999999866 mod=19.7 ETA=63.1 min
+[ 463/648] case=464 seed= 1002 safe=True df=0.133948 R=4.2059 Ts=0.9199999999999857 mod=9.0 ETA=63.1 min
+[ 464/648] case=463 seed= 1002 safe=True df=0.134628 R=4.1220 Ts=0.8979999999999871 mod=7.3 ETA=62.6 min
+[ 465/648] case=465 seed= 1002 safe=True df=0.133710 R=4.2904 Ts=0.9324999999999858 mod=10.6 ETA=62.3 min
+[ 466/648] case=466 seed= 1002 safe=True df=0.133873 R=4.2266 Ts=0.941999999999986 mod=12.2 ETA=62.2 min
+[ 467/648] case=467 seed= 1002 safe=True df=0.133932 R=4.2936 Ts=0.962999999999986 mod=15.3 ETA=61.8 min
+[ 468/648] case=468 seed= 1002 safe=True df=0.134350 R=4.3512 Ts=0.983499999999986 mod=20.0 ETA=61.3 min
+[ 469/648] case=469 seed= 1002 safe=True df=0.154537 R=7.1164 Ts=0.8674999999999884 mod=7.9 ETA=60.9 min
+[ 470/648] case=470 seed= 1002 safe=True df=0.132567 R=5.3671 Ts=0.8729999999999883 mod=9.7 ETA=60.4 min
+[ 471/648] case=471 seed= 1002 safe=True df=0.132740 R=6.2737 Ts=0.9169999999999875 mod=11.8 ETA=60.4 min
+[ 472/648] case=472 seed= 1002 safe=True df=0.132734 R=6.2858 Ts=0.9034999999999878 mod=13.9 ETA=59.9 min
+[ 473/648] case=473 seed= 1002 safe=True df=0.133154 R=7.8645 Ts=0.897999999999987 mod=18.0 ETA=59.6 min
+[ 474/648] case=474 seed= 1002 safe=True df=0.133768 R=8.5097 Ts=0.944999999999987 mod=24.4 ETA=59.5 min
+[ 475/648] case=476 seed= 1002 safe=True df=0.132258 R=4.0150 Ts=0.9309999999999881 mod=9.6 ETA=59.1 min
+[ 476/648] case=475 seed= 1002 safe=True df=0.132842 R=3.9087 Ts=0.9029999999999895 mod=7.3 ETA=58.6 min
+[ 477/648] case=477 seed= 1002 safe=True df=0.132780 R=4.0486 Ts=0.9504999999999874 mod=11.8 ETA=58.1 min
+[ 478/648] case=478 seed= 1002 safe=True df=0.132754 R=4.0615 Ts=0.9614999999999871 mod=14.0 ETA=57.7 min
+[ 479/648] case=480 seed= 1002 safe=True df=0.133714 R=4.2676 Ts=0.9739999999999867 mod=24.7 ETA=57.6 min
+[ 480/648] case=479 seed= 1002 safe=True df=0.133157 R=4.3279 Ts=0.9949999999999866 mod=18.3 ETA=57.2 min
+[ 481/648] case=481 seed= 1002 safe=True df=0.132885 R=3.9474 Ts=0.9099999999999886 mod=7.4 ETA=56.9 min
+[ 482/648] case=482 seed= 1002 safe=True df=0.132565 R=3.9527 Ts=0.9464999999999878 mod=9.7 ETA=56.7 min
+[ 483/648] case=483 seed= 1002 safe=True df=0.132780 R=4.0405 Ts=0.9574999999999866 mod=11.9 ETA=56.3 min
+[ 484/648] case=484 seed= 1002 safe=True df=0.132880 R=4.1554 Ts=0.9644999999999869 mod=14.1 ETA=55.9 min
+[ 485/648] case=485 seed= 1002 safe=True df=0.133253 R=4.0920 Ts=1.0004999999999866 mod=18.4 ETA=55.4 min
+[ 486/648] case=486 seed= 1002 safe=True df=0.133716 R=4.3570 Ts=1.0089999999999866 mod=24.7 ETA=55.0 min
+[ 487/648] case=487 seed= 1002 safe=True df=0.133033 R=3.8749 Ts=0.9059999999999877 mod=7.4 ETA=54.9 min
+[ 488/648] case=488 seed= 1002 safe=True df=0.132641 R=3.9797 Ts=0.9339999999999872 mod=9.7 ETA=54.5 min
+[ 489/648] case=489 seed= 1002 safe=True df=0.132895 R=4.1584 Ts=0.9559999999999866 mod=11.9 ETA=54.1 min
+[ 490/648] case=490 seed= 1002 safe=True df=0.133016 R=4.1294 Ts=0.9599999999999866 mod=14.1 ETA=54.0 min
+[ 491/648] case=492 seed= 1002 safe=True df=0.133759 R=4.3858 Ts=1.0294999999999863 mod=24.8 ETA=53.6 min
+[ 492/648] case=491 seed= 1002 safe=True df=0.133338 R=4.1665 Ts=0.9934999999999861 mod=18.5 ETA=53.1 min
+[ 493/648] case=493 seed= 1002 safe=True df=0.133521 R=3.9571 Ts=0.9019999999999871 mod=7.6 ETA=52.7 min
+[ 494/648] case=494 seed= 1002 safe=True df=0.133125 R=4.2128 Ts=0.9309999999999865 mod=9.8 ETA=52.3 min
+[ 495/648] case=495 seed= 1002 safe=True df=0.133101 R=4.2364 Ts=0.9489999999999864 mod=12.1 ETA=52.2 min
+[ 496/648] case=496 seed= 1002 safe=True df=0.133135 R=4.2500 Ts=0.9614999999999861 mod=14.3 ETA=51.7 min
+[ 497/648] case=497 seed= 1002 safe=True df=0.133390 R=4.2676 Ts=0.9879999999999858 mod=18.6 ETA=51.4 min
+[ 498/648] case=498 seed= 1002 safe=True df=0.133825 R=4.2935 Ts=1.022499999999986 mod=25.0 ETA=51.3 min
+[ 499/648] case=499 seed= 1002 safe=True df=0.134073 R=4.1211 Ts=0.912999999999986 mod=8.5 ETA=50.8 min
+[ 500/648] case=500 seed= 1002 safe=True df=0.133573 R=4.2649 Ts=0.9279999999999857 mod=10.6 ETA=50.4 min
+[ 501/648] case=501 seed= 1002 safe=True df=0.133563 R=4.2028 Ts=0.9449999999999852 mod=12.7 ETA=50.0 min
+[ 502/648] case=502 seed= 1002 safe=True df=0.133568 R=4.3408 Ts=0.9599999999999852 mod=14.7 ETA=49.6 min
+[ 503/648] case=504 seed= 1002 safe=True df=0.134014 R=4.3037 Ts=1.0089999999999852 mod=25.4 ETA=49.5 min
+[ 504/648] case=503 seed= 1002 safe=True df=0.133623 R=4.2844 Ts=0.9764999999999855 mod=19.0 ETA=49.0 min
+[ 505/648] case=505 seed= 1002 safe=True df=0.132750 R=6.1811 Ts=0.8904999999999876 mod=8.8 ETA=48.7 min
+[ 506/648] case=506 seed= 1002 safe=True df=0.132205 R=6.5814 Ts=0.8864999999999873 mod=11.4 ETA=48.5 min
+[ 507/648] case=507 seed= 1002 safe=True df=0.132261 R=6.3275 Ts=0.904499999999987 mod=13.8 ETA=48.1 min
+[ 508/648] case=508 seed= 1002 safe=True df=0.132440 R=6.0288 Ts=0.9069999999999869 mod=16.6 ETA=47.7 min
+[ 509/648] case=509 seed= 1002 safe=True df=0.132926 R=7.7242 Ts=0.9074999999999864 mod=21.4 ETA=47.3 min
+[ 510/648] case=510 seed= 1002 safe=True df=0.133435 R=8.8514 Ts=0.9144999999999861 mod=29.4 ETA=46.8 min
+[ 511/648] case=512 seed= 1002 safe=True df=0.131948 R=4.1035 Ts=0.9544999999999874 mod=11.3 ETA=46.7 min
+[ 512/648] case=511 seed= 1002 safe=True df=0.132102 R=3.8748 Ts=0.9189999999999885 mod=8.6 ETA=46.3 min
+[ 513/648] case=513 seed= 1002 safe=True df=0.132186 R=3.9796 Ts=0.9754999999999867 mod=14.1 ETA=45.9 min
+[ 514/648] case=514 seed= 1002 safe=True df=0.132503 R=4.0857 Ts=0.9839999999999867 mod=16.8 ETA=45.8 min
+[ 515/648] case=515 seed= 1002 safe=True df=0.133127 R=4.1584 Ts=0.9989999999999859 mod=22.1 ETA=45.4 min
+[ 516/648] case=516 seed= 1002 safe=True df=0.133330 R=4.2686 Ts=0.9934999999999858 mod=29.8 ETA=44.9 min
+[ 517/648] case=517 seed= 1002 safe=True df=0.132290 R=3.9966 Ts=0.9404999999999877 mod=8.6 ETA=44.5 min
+[ 518/648] case=518 seed= 1002 safe=True df=0.132195 R=4.1168 Ts=0.9629999999999865 mod=11.4 ETA=44.1 min
+[ 519/648] case=519 seed= 1002 safe=True df=0.132371 R=4.1697 Ts=0.9684999999999864 mod=14.1 ETA=44.0 min
+[ 520/648] case=520 seed= 1002 safe=True df=0.132537 R=4.0305 Ts=0.983999999999986 mod=16.9 ETA=43.6 min
+[ 521/648] case=521 seed= 1002 safe=True df=0.133003 R=4.2603 Ts=1.0254999999999856 mod=22.1 ETA=43.2 min
+[ 522/648] case=522 seed= 1002 safe=True df=0.133462 R=4.3668 Ts=1.030999999999986 mod=29.9 ETA=43.0 min
+[ 523/648] case=524 seed= 1002 safe=True df=0.132377 R=4.0638 Ts=0.9489999999999864 mod=11.5 ETA=42.6 min
+[ 524/648] case=523 seed= 1002 safe=True df=0.132709 R=3.9288 Ts=0.9299999999999868 mod=8.7 ETA=42.2 min
+[ 525/648] case=525 seed= 1002 safe=True df=0.132682 R=4.1350 Ts=0.9684999999999859 mod=14.2 ETA=41.8 min
+[ 526/648] case=526 seed= 1002 safe=True df=0.132676 R=4.0977 Ts=0.9864999999999858 mod=16.9 ETA=41.4 min
+[ 527/648] case=527 seed= 1002 safe=True df=0.133112 R=4.2544 Ts=1.0129999999999857 mod=22.2 ETA=41.3 min
+[ 528/648] case=528 seed= 1002 safe=True df=0.133379 R=4.2107 Ts=1.0269999999999857 mod=30.0 ETA=40.9 min
+[ 529/648] case=529 seed= 1002 safe=True df=0.133296 R=4.0567 Ts=0.9184999999999861 mod=8.8 ETA=40.5 min
+[ 530/648] case=530 seed= 1002 safe=True df=0.132735 R=4.2257 Ts=0.9349999999999861 mod=11.6 ETA=40.3 min
+[ 531/648] case=532 seed= 1002 safe=True df=0.132904 R=4.2232 Ts=0.9839999999999852 mod=17.1 ETA=39.9 min
+[ 532/648] case=531 seed= 1002 safe=True df=0.132992 R=4.1492 Ts=0.9669999999999854 mod=14.4 ETA=39.5 min
+[ 533/648] case=533 seed= 1002 safe=True df=0.133371 R=4.2945 Ts=0.9989999999999855 mod=22.5 ETA=39.1 min
+[ 534/648] case=534 seed= 1002 safe=True df=0.133623 R=4.2794 Ts=1.0339999999999852 mod=30.3 ETA=38.7 min
+[ 535/648] case=536 seed= 1002 safe=True df=0.133383 R=4.2327 Ts=0.9379999999999852 mod=12.2 ETA=38.5 min
+[ 536/648] case=535 seed= 1002 safe=True df=0.133606 R=4.2488 Ts=0.9254999999999851 mod=9.6 ETA=38.1 min
+[ 537/648] case=537 seed= 1002 safe=True df=0.133313 R=4.2543 Ts=0.9574999999999845 mod=14.7 ETA=37.7 min
+[ 538/648] case=538 seed= 1002 safe=True df=0.133368 R=4.2856 Ts=0.9714999999999849 mod=17.5 ETA=37.6 min
+[ 539/648] case=539 seed= 1002 safe=True df=0.133585 R=4.3408 Ts=0.9909999999999849 mod=22.9 ETA=37.2 min
+[ 540/648] case=540 seed= 1002 safe=True df=0.133779 R=4.3171 Ts=1.0184999999999846 mod=30.8 ETA=36.8 min
+[ 541/648] case=541 seed= 1002 safe=True df=0.144336 R=7.0109 Ts=0.9129999999999865 mod=10.2 ETA=36.4 min
+[ 542/648] case=542 seed= 1002 safe=True df=0.132143 R=6.6875 Ts=0.8849999999999867 mod=12.9 ETA=36.0 min
+[ 543/648] case=543 seed= 1002 safe=True df=0.131974 R=6.3607 Ts=0.9049999999999864 mod=15.9 ETA=35.8 min
+[ 544/648] case=544 seed= 1002 safe=True df=0.132195 R=6.0476 Ts=0.9089999999999864 mod=19.0 ETA=35.4 min
+[ 545/648] case=545 seed= 1002 safe=True df=0.132596 R=7.7063 Ts=0.898999999999986 mod=24.9 ETA=35.0 min
+[ 546/648] case=546 seed= 1002 safe=True df=0.133076 R=8.9146 Ts=0.9089999999999856 mod=34.2 ETA=34.8 min
+[ 547/648] case=547 seed= 1002 safe=True df=0.131697 R=4.0679 Ts=0.9489999999999872 mod=9.7 ETA=34.4 min
+[ 548/648] case=548 seed= 1002 safe=True df=0.131723 R=3.9643 Ts=0.9724999999999866 mod=13.1 ETA=34.0 min
+[ 549/648] case=549 seed= 1002 safe=True df=0.131967 R=4.0697 Ts=0.987999999999986 mod=16.3 ETA=33.6 min
+[ 550/648] case=550 seed= 1002 safe=True df=0.132324 R=4.2685 Ts=0.9919999999999858 mod=19.5 ETA=33.3 min
+[ 551/648] case=552 seed= 1002 safe=True df=0.133261 R=4.2262 Ts=1.0074999999999854 mod=35.0 ETA=33.1 min
+[ 552/648] case=551 seed= 1002 safe=True df=0.132691 R=4.1917 Ts=1.0254999999999852 mod=25.8 ETA=32.7 min
+[ 553/648] case=553 seed= 1002 safe=True df=0.132135 R=3.9375 Ts=0.934999999999987 mod=9.8 ETA=32.3 min
+[ 554/648] case=554 seed= 1002 safe=True df=0.132108 R=3.9614 Ts=0.9769999999999864 mod=13.1 ETA=32.1 min
+[ 555/648] case=555 seed= 1002 safe=True df=0.132142 R=4.0427 Ts=0.9879999999999858 mod=16.4 ETA=31.7 min
+[ 556/648] case=556 seed= 1002 safe=True df=0.132378 R=4.1122 Ts=0.9919999999999853 mod=19.6 ETA=31.3 min
+[ 557/648] case=557 seed= 1002 safe=True df=0.132869 R=4.2347 Ts=1.0239999999999851 mod=25.9 ETA=30.9 min
+[ 558/648] case=558 seed= 1002 safe=True df=0.133159 R=4.2411 Ts=1.058999999999983 mod=35.1 ETA=30.5 min
+[ 559/648] case=561 seed= 1002 safe=True df=0.132388 R=4.1553 Ts=0.9809999999999856 mod=16.5 ETA=30.4 min
+[ 560/648] case=559 seed= 1002 safe=True df=0.132445 R=3.9686 Ts=0.9489999999999865 mod=9.9 ETA=30.0 min
+[ 561/648] case=560 seed= 1002 safe=True df=0.132299 R=4.1732 Ts=0.9589999999999859 mod=13.2 ETA=29.6 min
+[ 562/648] case=562 seed= 1002 safe=True df=0.132586 R=4.1594 Ts=0.9904999999999854 mod=19.7 ETA=29.4 min
+[ 563/648] case=563 seed= 1002 safe=True df=0.132918 R=4.3165 Ts=1.021499999999985 mod=26.0 ETA=29.0 min
+[ 564/648] case=564 seed= 1002 safe=True df=0.133325 R=4.3286 Ts=1.0544999999999836 mod=35.2 ETA=28.6 min
+[ 565/648] case=565 seed= 1002 safe=True df=0.132775 R=4.1464 Ts=0.9239999999999857 mod=10.1 ETA=28.2 min
+[ 566/648] case=566 seed= 1002 safe=True df=0.132673 R=4.2243 Ts=0.9514999999999854 mod=13.4 ETA=27.8 min
+[ 567/648] case=567 seed= 1002 safe=True df=0.132830 R=4.2411 Ts=0.9839999999999851 mod=16.7 ETA=27.6 min
+[ 568/648] case=569 seed= 1002 safe=True df=0.133098 R=4.3311 Ts=1.0184999999999849 mod=26.3 ETA=27.2 min
+[ 569/648] case=568 seed= 1002 safe=True df=0.132961 R=4.2035 Ts=1.0004999999999844 mod=19.9 ETA=26.9 min
+[ 570/648] case=570 seed= 1002 safe=True df=0.133314 R=4.3053 Ts=1.0494999999999841 mod=35.6 ETA=26.6 min
+[ 571/648] case=571 seed= 1002 safe=True df=0.133423 R=4.3344 Ts=0.932499999999985 mod=10.8 ETA=26.3 min
+[ 572/648] case=572 seed= 1002 safe=True df=0.133336 R=4.2570 Ts=0.9519999999999844 mod=13.8 ETA=25.9 min
+[ 573/648] case=573 seed= 1002 safe=True df=0.133096 R=4.2904 Ts=0.9669999999999844 mod=17.1 ETA=25.5 min
+[ 574/648] case=574 seed= 1002 safe=True df=0.133166 R=4.2819 Ts=0.9864999999999846 mod=20.4 ETA=25.1 min
+[ 575/648] case=575 seed= 1002 safe=True df=0.133435 R=4.3009 Ts=1.0029999999999846 mod=26.8 ETA=24.9 min
+[ 576/648] case=576 seed= 1002 safe=True df=0.133484 R=4.2642 Ts=1.0339999999999843 mod=36.2 ETA=24.5 min
+[ 577/648] case=577 seed= 1002 safe=True df=0.131751 R=6.0788 Ts=0.9089999999999864 mod=12.0 ETA=24.1 min
+[ 578/648] case=578 seed= 1002 safe=True df=0.131501 R=7.1388 Ts=0.8839999999999856 mod=15.9 ETA=23.9 min
+[ 579/648] case=579 seed= 1002 safe=True df=0.131541 R=6.5147 Ts=0.8959999999999853 mod=19.8 ETA=23.5 min
+[ 580/648] case=580 seed= 1002 safe=True df=0.131728 R=5.8384 Ts=0.9364999999999852 mod=24.2 ETA=23.1 min
+[ 581/648] case=581 seed= 1002 safe=True df=0.132022 R=8.1242 Ts=0.883999999999985 mod=31.6 ETA=22.8 min
+[ 582/648] case=582 seed= 1002 safe=True df=0.132653 R=9.1848 Ts=0.9614999999999846 mod=44.1 ETA=22.4 min
+[ 583/648] case=583 seed= 1002 safe=True df=0.131313 R=4.0477 Ts=0.9574999999999865 mod=12.1 ETA=22.2 min
+[ 584/648] case=584 seed= 1002 safe=True df=0.131580 R=4.0473 Ts=0.9934999999999855 mod=16.5 ETA=21.8 min
+[ 585/648] case=585 seed= 1002 safe=True df=0.131815 R=4.0292 Ts=0.9964999999999851 mod=20.7 ETA=21.4 min
+[ 586/648] case=586 seed= 1002 safe=True df=0.132107 R=4.1885 Ts=1.0129999999999848 mod=24.9 ETA=21.2 min
+[ 587/648] case=587 seed= 1002 safe=True df=0.132388 R=4.3279 Ts=1.0394999999999843 mod=33.1 ETA=20.8 min
+[ 588/648] case=588 seed= 1002 safe=True df=0.132706 R=4.3328 Ts=1.0294999999999845 mod=45.1 ETA=20.4 min
+[ 589/648] case=589 seed= 1002 safe=True df=0.131669 R=4.0545 Ts=0.9619999999999856 mod=12.2 ETA=20.0 min
+[ 590/648] case=590 seed= 1002 safe=True df=0.131750 R=4.1242 Ts=0.9894999999999852 mod=16.5 ETA=19.7 min
+[ 591/648] case=591 seed= 1002 safe=True df=0.131997 R=4.0753 Ts=0.9919999999999851 mod=20.8 ETA=19.4 min
+[ 592/648] case=592 seed= 1002 safe=True df=0.132252 R=4.2810 Ts=1.0279999999999847 mod=25.0 ETA=19.1 min
+[ 593/648] case=593 seed= 1002 safe=True df=0.132484 R=4.3337 Ts=1.0559999999999834 mod=33.2 ETA=18.7 min
+[ 594/648] case=594 seed= 1002 safe=True df=0.132738 R=4.3226 Ts=1.0809999999999806 mod=45.3 ETA=18.4 min
+[ 595/648] case=595 seed= 1002 safe=True df=0.131978 R=4.0744 Ts=0.9589999999999856 mod=12.3 ETA=18.1 min
+[ 596/648] case=596 seed= 1002 safe=True df=0.132187 R=4.1539 Ts=0.9849999999999848 mod=16.7 ETA=17.7 min
+[ 597/648] case=597 seed= 1002 safe=True df=0.132249 R=4.1505 Ts=1.0004999999999844 mod=20.9 ETA=17.3 min
+[ 598/648] case=598 seed= 1002 safe=True df=0.132488 R=4.2865 Ts=1.0309999999999846 mod=25.1 ETA=17.0 min
+[ 599/648] case=599 seed= 1002 safe=True df=0.132648 R=4.3217 Ts=1.0639999999999825 mod=33.4 ETA=16.7 min
+[ 600/648] case=600 seed= 1002 safe=True df=0.132908 R=4.3150 Ts=1.078499999999981 mod=45.5 ETA=16.3 min
+[ 601/648] case=601 seed= 1002 safe=True df=0.132548 R=4.1798 Ts=0.9419999999999853 mod=12.6 ETA=16.0 min
+[ 602/648] case=602 seed= 1002 safe=True df=0.132506 R=4.2108 Ts=0.9724999999999848 mod=17.0 ETA=15.7 min
+[ 603/648] case=603 seed= 1002 safe=True df=0.132623 R=4.2193 Ts=1.0059999999999842 mod=21.3 ETA=15.3 min
+[ 604/648] case=604 seed= 1002 safe=True df=0.132706 R=4.2901 Ts=1.0254999999999839 mod=25.5 ETA=15.0 min
+[ 605/648] case=605 seed= 1002 safe=True df=0.132942 R=4.2419 Ts=1.050499999999984 mod=33.8 ETA=14.6 min
+[ 606/648] case=606 seed= 1002 safe=True df=0.133151 R=4.2761 Ts=1.0729999999999815 mod=45.9 ETA=14.2 min
+[ 607/648] case=607 seed= 1002 safe=True df=0.133127 R=4.2749 Ts=0.9434999999999845 mod=13.1 ETA=14.0 min
+[ 608/648] case=608 seed= 1002 safe=True df=0.132945 R=4.3398 Ts=0.961499999999984 mod=17.4 ETA=13.6 min
+[ 609/648] case=609 seed= 1002 safe=True df=0.133131 R=4.3121 Ts=0.9879999999999837 mod=21.8 ETA=13.3 min
+[ 610/648] case=610 seed= 1002 safe=True df=0.133175 R=4.3851 Ts=1.0019999999999838 mod=26.1 ETA=13.0 min
+[ 611/648] case=611 seed= 1002 safe=True df=0.133126 R=4.3318 Ts=1.030999999999984 mod=34.4 ETA=12.6 min
+[ 612/648] case=612 seed= 1002 safe=True df=0.133270 R=4.3045 Ts=1.0699999999999819 mod=46.7 ETA=12.2 min
+[ 613/648] case=613 seed= 1002 safe=True df=0.131488 R=7.2122 Ts=0.892499999999985 mod=15.2 ETA=11.9 min
+[ 614/648] case=614 seed= 1002 safe=True df=0.130903 R=5.3615 Ts=0.9114999999999847 mod=20.4 ETA=11.5 min
+[ 615/648] case=615 seed= 1002 safe=True df=0.131031 R=6.4175 Ts=0.8934999999999845 mod=25.8 ETA=11.2 min
+[ 616/648] case=616 seed= 1002 safe=True df=0.131386 R=5.7234 Ts=0.927499999999984 mod=31.8 ETA=10.9 min
+[ 617/648] case=617 seed= 1002 safe=True df=0.131787 R=8.3568 Ts=0.8644999999999837 mod=41.8 ETA=10.5 min
+[ 618/648] case=618 seed= 1002 safe=True df=0.132329 R=8.9841 Ts=0.9349999999999835 mod=59.1 ETA=10.2 min
+[ 619/648] case=620 seed= 1002 safe=True df=0.131201 R=4.3513 Ts=1.008499999999984 mod=21.4 ETA=9.9 min
+[ 620/648] case=619 seed= 1002 safe=True df=0.130985 R=4.0683 Ts=0.9989999999999848 mod=15.6 ETA=9.5 min
+[ 621/648] case=621 seed= 1002 safe=True df=0.131763 R=4.1781 Ts=1.0644999999999825 mod=27.2 ETA=9.2 min
+[ 622/648] case=622 seed= 1002 safe=True df=0.131853 R=4.3575 Ts=1.0519999999999838 mod=32.8 ETA=8.8 min
+[ 623/648] case=623 seed= 1002 safe=True df=0.132342 R=4.2623 Ts=1.0879999999999799 mod=43.9 ETA=8.5 min
+[ 624/648] case=624 seed= 1002 safe=True df=0.132462 R=4.2707 Ts=1.0619999999999827 mod=60.1 ETA=8.2 min
+[ 625/648] case=625 seed= 1002 safe=True df=0.131640 R=4.1362 Ts=0.9934999999999847 mod=15.7 ETA=7.8 min
+[ 626/648] case=626 seed= 1002 safe=True df=0.131556 R=4.0898 Ts=1.012999999999984 mod=21.6 ETA=7.5 min
+[ 627/648] case=627 seed= 1002 safe=True df=0.131920 R=4.2915 Ts=1.050499999999984 mod=27.3 ETA=7.2 min
+[ 628/648] case=628 seed= 1002 safe=True df=0.131945 R=4.3805 Ts=1.0574999999999832 mod=33.0 ETA=6.8 min
+[ 629/648] case=629 seed= 1002 safe=True df=0.132338 R=4.2918 Ts=1.1084999999999776 mod=44.1 ETA=6.5 min
+[ 630/648] case=630 seed= 1002 safe=True df=0.132575 R=4.3157 Ts=1.1119999999999772 mod=60.5 ETA=6.1 min
+[ 631/648] case=631 seed= 1002 safe=True df=0.131763 R=4.1716 Ts=0.9839999999999844 mod=15.8 ETA=5.8 min
+[ 632/648] case=632 seed= 1002 safe=True df=0.131972 R=4.1515 Ts=1.0199999999999838 mod=21.7 ETA=5.4 min
+[ 633/648] case=633 seed= 1002 safe=True df=0.132095 R=4.2738 Ts=1.0339999999999838 mod=27.5 ETA=5.1 min
+[ 634/648] case=634 seed= 1002 safe=True df=0.132200 R=4.3146 Ts=1.0654999999999824 mod=33.1 ETA=4.8 min
+[ 635/648] case=636 seed= 1002 safe=True df=0.132712 R=4.3617 Ts=1.1364999999999745 mod=60.7 ETA=4.4 min
+[ 636/648] case=635 seed= 1002 safe=True df=0.132269 R=4.2957 Ts=1.0879999999999799 mod=44.3 ETA=4.1 min
+[ 637/648] case=637 seed= 1002 safe=True df=0.132402 R=4.1832 Ts=0.9714999999999843 mod=16.2 ETA=3.7 min
+[ 638/648] case=638 seed= 1002 safe=True df=0.132422 R=4.2209 Ts=1.0034999999999836 mod=22.1 ETA=3.4 min
+[ 639/648] case=639 seed= 1002 safe=True df=0.132389 R=4.2982 Ts=1.0299999999999836 mod=27.9 ETA=3.1 min
+[ 640/648] case=640 seed= 1002 safe=True df=0.132405 R=4.2778 Ts=1.0559999999999832 mod=33.6 ETA=2.7 min
+[ 641/648] case=641 seed= 1002 safe=True df=0.132608 R=4.3306 Ts=1.0834999999999804 mod=44.8 ETA=2.4 min
+[ 642/648] case=644 seed= 1002 safe=True df=0.133014 R=4.3136 Ts=0.9879999999999837 mod=22.8 ETA=2.0 min
+[ 643/648] case=643 seed= 1002 safe=True df=0.132996 R=4.3087 Ts=0.9599999999999842 mod=16.8 ETA=1.7 min
+[ 644/648] case=646 seed= 1002 safe=True df=0.132811 R=4.2962 Ts=1.0294999999999834 mod=34.4 ETA=1.4 min
+[ 645/648] case=642 seed= 1002 safe=True df=0.132791 R=4.3467 Ts=1.1114999999999773 mod=61.3 ETA=1.0 min
+[ 646/648] case=645 seed= 1002 safe=True df=0.132827 R=4.3091 Ts=1.0124999999999833 mod=28.7 ETA=0.7 min
+[ 647/648] case=647 seed= 1002 safe=True df=0.132968 R=4.2972 Ts=1.0809999999999806 mod=45.7 ETA=0.3 min
+[ 648/648] case=648 seed= 1002 safe=True df=0.133058 R=4.3031 Ts=1.1004999999999785 mod=62.3 ETA=0.0 min
+Selected Stage-B cases: [25, 229, 439, 55, 241, 61, 31, 19, 235, 445, 451, 271, 32, 487, 475, 97, 14, 457, 313, 20]
+STAGE B: 0/40 complete; remaining 40
+[   1/40] case= 55 seed= 1001 safe=True df=0.175221 R=5.1711 Ts=nan mod=12.9 ETA=105.5 min
+[   2/40] case=439 seed= 1001 safe=True df=0.157974 R=5.1526 Ts=nan mod=11.0 ETA=51.6 min
+[   3/40] case=439 seed= 1003 safe=True df=0.122309 R=4.3488 Ts=0.9079999999999873 mod=8.2 ETA=33.5 min
+[   4/40] case= 25 seed= 1003 safe=True df=0.124162 R=4.2358 Ts=0.8814999999999871 mod=7.6 ETA=24.6 min
+[   5/40] case= 55 seed= 1003 safe=True df=0.123509 R=4.3853 Ts=0.9309999999999856 mod=9.4 ETA=19.1 min
+[   6/40] case= 25 seed= 1001 safe=True df=0.171232 R=4.8636 Ts=nan mod=10.1 ETA=15.5 min
+[   7/40] case=229 seed= 1003 safe=True df=0.123535 R=4.3688 Ts=0.9214999999999869 mod=7.9 ETA=13.0 min
+[   8/40] case=229 seed= 1001 safe=True df=0.165107 R=4.9070 Ts=nan mod=10.4 ETA=11.0 min
+[   9/40] case=241 seed= 1001 safe=True df=0.167664 R=4.7007 Ts=nan mod=10.7 ETA=18.6 min
+[  10/40] case= 61 seed= 1001 safe=True df=0.168749 R=4.7961 Ts=nan mod=12.9 ETA=16.2 min
+[  11/40] case=241 seed= 1003 safe=True df=0.123531 R=4.0067 Ts=0.8964999999999861 mod=8.0 ETA=14.3 min
+[  12/40] case= 31 seed= 1001 safe=True df=0.168151 R=4.6779 Ts=nan mod=10.4 ETA=12.7 min
+[  13/40] case= 61 seed= 1003 safe=True df=0.123528 R=4.2616 Ts=0.9299999999999848 mod=9.6 ETA=11.3 min
+[  14/40] case= 19 seed= 1001 safe=True df=0.181421 R=5.1373 Ts=nan mod=10.0 ETA=10.1 min
+[  15/40] case= 31 seed= 1003 safe=True df=0.123491 R=4.0142 Ts=0.8934999999999858 mod=7.8 ETA=9.1 min
+[  16/40] case= 19 seed= 1003 safe=True df=0.125110 R=4.1871 Ts=0.9239999999999873 mod=7.5 ETA=8.3 min
+[  17/40] case=445 seed= 1001 safe=True df=0.166701 R=4.8911 Ts=nan mod=11.0 ETA=11.0 min
+[  18/40] case=235 seed= 1001 safe=True df=0.168529 R=4.8821 Ts=nan mod=10.5 ETA=9.9 min
+[  19/40] case=451 seed= 1001 safe=True df=0.166680 R=4.7253 Ts=nan mod=11.1 ETA=9.0 min
+[  20/40] case=235 seed= 1003 safe=True df=0.122884 R=4.1501 Ts=0.9174999999999869 mod=7.9 ETA=8.1 min
+[  21/40] case=445 seed= 1003 safe=True df=0.122215 R=4.2589 Ts=0.9104999999999864 mod=8.3 ETA=7.4 min
+[  22/40] case=271 seed= 1001 safe=True df=0.167478 R=4.9414 Ts=nan mod=13.2 ETA=6.7 min
+[  23/40] case=451 seed= 1003 safe=True df=0.122580 R=4.1135 Ts=0.9114999999999857 mod=8.4 ETA=6.0 min
+[  24/40] case=271 seed= 1003 safe=True df=0.122744 R=4.2350 Ts=0.9369999999999847 mod=9.9 ETA=5.5 min
+[  25/40] case= 32 seed= 1001 safe=True df=0.166338 R=4.6861 Ts=nan mod=13.8 ETA=6.5 min
+[  26/40] case=475 seed= 1001 safe=True df=0.155832 R=5.1556 Ts=nan mod=13.7 ETA=5.8 min
+[  27/40] case=487 seed= 1001 safe=True df=0.166076 R=4.8558 Ts=nan mod=13.9 ETA=5.2 min
+[  28/40] case= 32 seed= 1003 safe=True df=0.122677 R=4.0599 Ts=0.9229999999999847 mod=10.2 ETA=4.6 min
+[  29/40] case=487 seed= 1003 safe=True df=0.123284 R=4.0613 Ts=0.9394999999999841 mod=10.3 ETA=4.1 min
+[  30/40] case= 97 seed= 1001 safe=True df=0.166741 R=4.8683 Ts=nan mod=15.8 ETA=3.6 min
+[  31/40] case=475 seed= 1003 safe=True df=0.122685 R=4.2628 Ts=0.9344999999999853 mod=10.1 ETA=3.2 min
+[  32/40] case= 97 seed= 1003 safe=True df=0.122936 R=4.1126 Ts=0.9424999999999835 mod=11.5 ETA=2.7 min
+[  33/40] case= 14 seed= 1001 safe=True df=0.219635 R=5.5282 Ts=nan mod=14.5 ETA=2.9 min
+[  34/40] case=457 seed= 1001 safe=True df=0.166747 R=4.6121 Ts=nan mod=11.3 ETA=2.4 min
+[  35/40] case=313 seed= 1001 safe=True df=0.166305 R=4.9016 Ts=nan mod=16.4 ETA=1.9 min
+[  36/40] case=457 seed= 1003 safe=True df=0.122955 R=4.0051 Ts=0.9174999999999849 mod=8.5 ETA=1.5 min
+[  37/40] case= 14 seed= 1003 safe=True df=0.121612 R=4.4378 Ts=0.9369999999999855 mod=10.1 ETA=1.1 min
+[  38/40] case=313 seed= 1003 safe=True df=0.123087 R=4.0179 Ts=0.9419999999999835 mod=12.0 ETA=0.7 min
+[  39/40] case= 20 seed= 1001 safe=True df=0.159235 R=5.1842 Ts=nan mod=13.5 ETA=0.3 min
+[  40/40] case= 20 seed= 1003 safe=True df=0.123325 R=4.3184 Ts=0.9254999999999857 mod=9.9 ETA=0.0 min
+
+====================================================================================================================
+LOCAL REFINEMENT COMPLETE
+====================================================================================================================
+Stage-A combinations      : 648
+Stage-B selected          : 20
+eligible                  : 20
+Pareto front              : 12
+simultaneous improvements : 16
+
+BEST COMPOSITE
+K=[2, 1.4, 0.7, 2]
+multipliers=[1.0, 0.1, 0.35, 0.1]
+S=0.864175
+improvements: df=+0.559% RoCoF=+8.550% Ts=+29.122%
+
+BEST SIMULTANEOUS IMPROVEMENT
+K=[2, 1.4, 0.7, 2]
+S=0.864175; df=+0.559% RoCoF=+8.550% Ts=+29.122%
+
+Resume: rerun the identical command with the identical --output_dir.
+====================================================================================================================
+
